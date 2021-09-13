@@ -25,3 +25,6 @@ The fourth part introduces Kafka Streams and explains its data processing capabi
 
 Docker: https://betterprogramming.pub/a-simple-apache-kafka-cluster-with-docker-kafdrop-and-python-cf45ab99e2b9
 
+## Best blog
+https://medium.com/agoda-engineering/adding-time-lag-to-monitor-kafka-consumer-2c626fa61cfc
+
