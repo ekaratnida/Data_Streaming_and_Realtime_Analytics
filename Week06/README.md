@@ -1,15 +1,21 @@
 # Week6 (Outline)** :hot_face:::hurtrealbad::hurtrealbad::hurtrealbad::hurtrealbad::hurtrealbad::hurtrealbad::hurtrealbad::hurtrealbad:
 
-### 6.1 What you've learned so far.
-![img1](./img1.png)
+## 6.1 What you've learned so far.
+<img src=./img1.png width="800" height="600">
 
-### 6.2 Spark streaming
-https://spark.apache.org/docs/latest/streaming-programming-guide.html
+## Lecture
+6.2 Mobile sensors and user behaviors
+- Mobile-sensor.pdf
 
-### 6.3 Mobile sensors and user behaviors
-Mobile-sensor.pdf
+## Lab
+6.3 Spark streaming
+- Run "Week6_spark.ipynb" in colab
+- https://spark.apache.org/docs/latest/streaming-programming-guide.html
 
-### 6.3.1 Setup and run Spark on local machine
+*********************************************************************
+
+
+## (Optional, not need to setup this in class) 6.3.1 Setup and run Spark on local machine
   1. Install java (version 8)
   2. Install python
   3. Download spark https://downloads.apache.org/spark/spark-2.4.7/spark-2.4.7-bin-hadoop2.6.tgz
@@ -38,9 +44,12 @@ Mobile-sensor.pdf
 
   5. Run a producer to generate a list of words
 
-### *Note*
-Must use python 3.7 and Java 8
+  ### *Note*
+  Must use python 3.7 and Java 8
 
-### 6.3.2 Setup and run Spark on colab
-https://nb.recohut.com/spark/pyspark/kafka/movie/2021/06/25/kafka-spark-streaming-colab.html
-Dataset --> https://grouplens.org/datasets/movielens/
+  <!--
+  ### 6.3.2 Setup and run Spark on colab
+  https://nb.recohut.com/spark/pyspark/kafka/movie/2021/06/25/kafka-spark-streaming-colab.html
+  -->
+  
+  Dataset --> https://grouplens.org/datasets/movielens/
