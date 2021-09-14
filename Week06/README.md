@@ -52,4 +52,8 @@
   https://nb.recohut.com/spark/pyspark/kafka/movie/2021/06/25/kafka-spark-streaming-colab.html
   -->
   
-  Dataset --> https://grouplens.org/datasets/movielens/
+  Dataset 
+  https://grouplens.org/datasets/movielens/
+  
+  Research
+  https://mhealth.jmir.org/2021/3/e26320?fbclid=IwAR3qIindVGTzg4htMaJrc1EUnt4Ko-wcIXWKWghU77UEMScTLu7Vvq_A_W8
