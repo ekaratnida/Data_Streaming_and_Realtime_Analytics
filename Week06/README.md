@@ -11,6 +11,7 @@
 ### Spark streaming
 - Run "Week6_spark.ipynb" in colab
 - https://spark.apache.org/docs/latest/streaming-programming-guide.html
+- http://spark.apache.org/docs/latest/structured-streaming-programming-guide.html
 
 *********************************************************************
 
