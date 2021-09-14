@@ -1,6 +1,9 @@
-***Week 8 (Outline)***</br>
+# ***Week 8 (Outline)***</br>
 :walking_man: :running_man: :biking_man: :golfing_woman:</br>
-8.1 Activity monitoring data
+
+## 8.1 Present TF-IDF (Quiz1)
+
+## 8.2 Lab: Activity monitoring data (Kafka Streams, Spark Streaming, Multiflow)
 
 - Activity data: Running, Standing, Waling (CSV)
 - Notebook to show the example of activity data
