@@ -1,8 +1,10 @@
-Unit 2: IoT
-Lecture 1 ~ 5
+## Lecture 
+- IoT 1 ~ 5
 
-Install microgear library for Netpie (mqtt)
-$ pip install microgear
+## Lab
+- Install microgear library for Netpie (mqtt)
+  - $ pip install microgear
+- Run "pub_iot.py" and "sub_iot.py"
 
 Reference
 1. https://www.confluent.io/blog/iot-streaming-use-cases-with-kafka-mqtt-confluent-and-waterstream/
