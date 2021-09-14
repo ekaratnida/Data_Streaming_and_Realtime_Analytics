@@ -4,7 +4,7 @@
 | 1     |     Introduction |
 | 2     |     Kafka technology |
 | 3     |     Kafka Streaming (I) |
-| 4     |     Kafka Streaming (II) | Assign Quiz 1 (10%), present Week 7 |
+| 4     |     Kafka Streaming (II) | Assign Quiz 1 (10%), present Week 8 |
 | 5     |     Internet of Things (IoT) | 
 | 6     |     Iot: Smartphone data |
 | 7     |     Apache Spark (I) & Scikit-multiflow (I) |
