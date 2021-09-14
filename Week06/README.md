@@ -3,12 +3,12 @@
 ## 6.1 What you've learned so far.
 <img src=./img1.png width="800" height="600">
 
-## Lecture
-6.2 Mobile sensors and user behaviors
+## 6.2 Lecture
+### Mobile sensors and user behaviors
 - Mobile-sensor.pdf
 
-## Lab
-6.3 Spark streaming
+## 6.3 Lab
+### Spark streaming
 - Run "Week6_spark.ipynb" in colab
 - https://spark.apache.org/docs/latest/streaming-programming-guide.html
 
