@@ -1,22 +1,19 @@
-***Week 7 (Outline)***</br>
-:hurtrealbad::hurtrealbad:</br>
-7.1 What you've learned so far  
+***Week 7 (Outline)***:hurtrealbad::hurtrealbad:</br>
+## 7.1 What you've learned so far  
 
-        - Continue Week 6 Mobile sensors  
+        - Kafka, Kafka streams (Native), MQTT, Mobile sensors, Spark streaming (Micro-batch)
+
+## 7.2 Spark Streaming (Continue from week 6)
         - Continue https://spark.apache.org/docs/latest/streaming-programming-guide.html  
         - Good example: https://sparkbyexamples.com/pyspark/pyspark-flatmap-transformation/  
 
-7.2 Spark Streaming Machine Learning (Traditional way)
-
+## 7.3 Spark Machine Learning
         - Introduce MLlib
-        - Twitter sentiment analysis https://github.com/lakshay-arora/PySpark/tree/master/spark_streaming
+        - Example: Twitter sentiment analysis https://github.com/lakshay-arora/PySpark/tree/master/spark_streaming
 
-7.3 Scikit-learn Multiflow
-
+## 7.4 Scikit-learn Multiflow (https://scikit-multiflow.github.io/)
         - Batch Learning VS Stream Learning
-        - Decision tree
         - Concept drift
+        - Decision tree
         - Evaluation
-        - Scikit-learn Multiflow
-        - https://scikit-multiflow.github.io/
         - Paper: https://jmlr.org/papers/volume19/18-251/18-251.pdf
