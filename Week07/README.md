@@ -1,4 +1,4 @@
-***Week 7 (Outline)***:hurtrealbad::hurtrealbad:</br>
+# Week 7 (Outline)***:hurtrealbad::hurtrealbad:</br>
 ## 7.1 What you've learned so far  
 
         - Kafka, Kafka streams (Native), MQTT, Mobile sensors, Spark streaming (Micro-batch)
