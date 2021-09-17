@@ -9,8 +9,8 @@
 
 ## 7.3 Spark Machine Learning
         - Introduce MLlib
-        - Example: Twitter sentiment analysis 
-        https://github.com/lakshay-arora/PySpark/tree/master/spark_streaming
+        - Example: Twitter sentiment analysis https://github.com/lakshay-arora/PySpark/tree/master/spark_streaming
+        - Run this example "Week7-twitter.ipynb" on colab
         
 
 ## 7.4 Scikit-learn Multiflow (https://scikit-multiflow.github.io/)
