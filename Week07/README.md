@@ -6,6 +6,8 @@
 ## 7.2 Spark Streaming (Continue from week 6)
         - Continue https://spark.apache.org/docs/latest/streaming-programming-guide.html  
         - RDD: (https://stackoverflow.com/a/36441528/)
+        - https://sparkbyexamples.com/pyspark/different-ways-to-create-dataframe-in-pyspark/
+        
 
 ## 7.3 Spark Machine Learning
         - Introduce MLlib
