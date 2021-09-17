@@ -68,11 +68,13 @@ for message in consumer:
 	1. Send data to all students
 	2. Each of them analyze data and return to teacher
 	
+## TF-IDF
+https://www.freecodecamp.org/news/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3/
 
-Reference
-Json generator
 
-https://github.com/everwatchsolutions/json-data-generator
+## Reference
+
+Json generator https://github.com/everwatchsolutions/json-data-generator
 
 https://kafka.apache.org/21/javadoc/org/apache/kafka/streams/kstream/KStream.html
 
