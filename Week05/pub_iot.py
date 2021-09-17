@@ -3,7 +3,7 @@ import time # ใช้ในการหน่วงเวลา
 
 appid = 'ekaratnida' # ชื่อแอพของเรา
 gearkey = 'jtD9ag08syPtqiK' # key 'ztyeDIYOjxDuJt6'
-gearsecret = 'W1wwaSMXA4ez3qXPlhqw09CxR' #'vDEEIuw9Ssj4OvbrBHmM4hZfa' # secret
+gearsecret = 'vDEEIuw9Ssj4OvbrBHmM4hZfa' #'vDEEIuw9Ssj4OvbrBHmM4hZfa' # secret
 
 client.create(gearkey,gearsecret,appid,{'debugmode': True}) # สร้างข้อมูลสำหรับใช้เชื่อมต่อ
 
@@ -25,10 +25,10 @@ client.subscribe("/test") # ชื่อช่องทางส่งข้อ�
 client.connect(False) # เชื่อมต่อ ถ้าใช้ False ไม่ค้างการเชื่อมต่อ
 
 i=0
-while i<10:
+while i<100:
     print("send ",i)
     #client.chat("siripong","hello from Ekarat ") # ส่งข้อมูลไปให้ one
-    client.publish("/test", "hello from Ekarat" )
+    client.publish("/myhome/groundfloor/livingroom/temperature", str(i) )
     time.sleep(1) # หน่วงเวลาการส่งข้อมูล 3 วินาที
     i+=1
 

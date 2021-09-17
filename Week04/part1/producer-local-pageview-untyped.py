@@ -24,7 +24,7 @@ import random
 i = 0
 print("Start producer...untyped...")
 
-while True:
+while i<10:
     p.poll(0)
     user = random.choice(uList)
     page = random.choice(pList)
@@ -35,7 +35,8 @@ while True:
     print(r2)
     p.produce('streams-pageview-input', key=user, value=json.dumps(r1))
     p.produce('streams-userprofile-input', key=user, value=json.dumps(r2))
-    time.sleep(0.1)
+    time.sleep(5)
+    i++
     '''i = i+1
     print(i)
     if i == 5:
