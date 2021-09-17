@@ -5,7 +5,7 @@
 
 ## 7.2 Spark Streaming (Continue from week 6)
         - Continue https://spark.apache.org/docs/latest/streaming-programming-guide.html  
-        - Good example: https://sparkbyexamples.com/pyspark/pyspark-flatmap-transformation/  
+        - RDD: (https://stackoverflow.com/a/36441528/)
 
 ## 7.3 Spark Machine Learning
         - Introduce MLlib
