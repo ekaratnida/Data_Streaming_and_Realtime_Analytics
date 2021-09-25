@@ -21,3 +21,6 @@
         - Decision tree
         - Evaluation
         - Paper: https://jmlr.org/papers/volume19/18-251/18-251.pdf
+        
+## TBD
+https://melmeric.files.wordpress.com/2010/05/efficient-online-evaluation-of-big-data-stream-classifiers.pdf
