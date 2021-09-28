@@ -58,3 +58,5 @@
   
   Research
   https://mhealth.jmir.org/2021/3/e26320?fbclid=IwAR3qIindVGTzg4htMaJrc1EUnt4Ko-wcIXWKWghU77UEMScTLu7Vvq_A_W8
+  
+  %SPARK_HOME%\python;%SPARK_HOME%\python\lib\py4j-0.10.7-src.zip:%PYTHONPATH%
