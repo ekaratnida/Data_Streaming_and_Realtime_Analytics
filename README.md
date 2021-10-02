@@ -19,11 +19,15 @@
 | 15    |     Automated trading: MT4 + python (II) |
 | -     |     | Present Final project (40%) | 
 
-Last quiz
+# Last quiz (2563/2)
 
 Quiz1 TF-IDF: https://www.youtube.com/watch?v=ulo_U6-qUwA
 
 Quiz2 Mobile activity analytics: https://youtu.be/wjQ_gu9ityc
 
 Quiz3 Game behavior analytics: https://youtu.be/UMXkgR5WOcY
+
+# Interesting papers
+- https://arxiv.org/pdf/2104.00087.pdf
+
 
