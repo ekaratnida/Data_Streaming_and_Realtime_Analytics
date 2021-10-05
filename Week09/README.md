@@ -8,6 +8,24 @@
     - Creditcard fraud
         - Sklearn technique: https://medium.com/analytics-vidhya/credit-card-fraud-detection-in-python-using-scikit-learn-f9046a030f50
         - Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud/data#
+        
+ ______
+## What is hoeffding tree 
+
+```
+The Hoeffding tree is an incremental decision tree learner for large data streams, 
+that assumes that the data distribution is not changing over time. 
+It grows incrementally a decision tree based on the theoretical guarantees of the Hoeffding bound 
+(or additive Chernoff bound). 
+A node is expanded as soon as there is sufficient statistical evidence that an optimal splitting feature exists, 
+a decision based on the distribution-independent Hoeffding bound. 
+The model learned by the Hoeffding tree is asymptotically nearly identical to the one built by 
+a non-incremental learner, if the number of training instances is large enough
+```
+
+P. Domingos and G. Hulten. Mining High-Speed Data Streams. In KDD, pages 71-80, Boston, MA, 2000. ACM Press.
+
+G. Hulten, L. Spencer, and P. Domingos. Mining time-changing data streams. In KDD, pages 97–106, San Francisco, CA, 2001. ACM Press.
        
 
 # Semester 2/2563
