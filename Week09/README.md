@@ -5,6 +5,7 @@
     - skmultiflow-demo-scipy2020.ipynb [1]
     - jacob_montiel.pdf [2]
     - agr_a_20k.csv [1]
+    - https://github.com/jacobmontiel/skmultiflow-demo-scipy2020/blob/master/skmultiflow-demo-scipy2020.ipynb
 
 **9.2 Video game and data analytics**
 + Get python game from [4]
