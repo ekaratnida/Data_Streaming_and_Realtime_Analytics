@@ -1,11 +1,16 @@
-****Week 9 Video games data analytics****</br></br>
-***Outline*** </br>
-**9.1 Continue.. (SKLearn Multiflow)**
-+ multiflow (folder)
+# Semester 1/2564
+## Week 9 Scikit multiflow </br></br>
+
     - skmultiflow-demo-scipy2020.ipynb [1]
     - jacob_montiel.pdf [2]
     - agr_a_20k.csv [1]
     - https://github.com/jacobmontiel/skmultiflow-demo-scipy2020/blob/master/skmultiflow-demo-scipy2020.ipynb
+    - Creditcard fraud
+        - Sklearn technique: https://medium.com/analytics-vidhya/credit-card-fraud-detection-in-python-using-scikit-learn-f9046a030f50
+        - Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud/data#
+       
+
+# Semester 2/2563
 
 **9.2 Video game and data analytics**
 + Get python game from [4]
