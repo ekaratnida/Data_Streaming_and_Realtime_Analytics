@@ -7,7 +7,7 @@
     - jacob_montiel.pdf [2]
     - agr_a_20k.csv [1]
     - Creditcard fraud
-        - Sklearn technique: https://medium.com/analytics-vidhya/credit-card-fraud-detection-in-python-using-scikit-learn-f9046a030f50
+        - Isolation Forest Model: https://medium.com/analytics-vidhya/credit-card-fraud-detection-in-python-using-scikit-learn-f9046a030f50
         - Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud/data#
         
  ______
