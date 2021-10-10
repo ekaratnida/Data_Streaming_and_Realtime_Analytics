@@ -4,7 +4,6 @@
     - skmultiflow-demo-scipy2020.ipynb [1]
     - jacob_montiel.pdf [2]
     - agr_a_20k.csv [1]
-    - https://github.com/jacobmontiel/skmultiflow-demo-scipy2020/blob/master/skmultiflow-demo-scipy2020.ipynb
     - Creditcard fraud
         - Sklearn technique: https://medium.com/analytics-vidhya/credit-card-fraud-detection-in-python-using-scikit-learn-f9046a030f50
         - Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud/data#
