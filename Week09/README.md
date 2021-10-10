@@ -69,3 +69,4 @@ G. Hulten, L. Spencer, and P. Domingos. Mining time-changing data streams. In KD
 [8] ADWIN: https://www.cs.upc.edu/~abifet/Prova/
 
     - https://scikit-multiflow.readthedocs.io/en/stable/api/generated/skmultiflow.drift_detection.ADWIN.html#r15061f6a3a9d-1
+    - https://www.researchgate.net/publication/220907178_Learning_from_Time-Changing_Data_with_Adaptive_Windowing
