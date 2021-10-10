@@ -67,4 +67,5 @@ G. Hulten, L. Spencer, and P. Domingos. Mining time-changing data streams. In KD
 [6] Interesting info: https://scikit-learn.org/0.15/modules/scaling_strategies.html#incremental-learning </br>
 [7] Apache beam: https://beam.apache.org/get-started/mobile-gaming-example/ </br>
 [8] ADWIN: https://www.cs.upc.edu/~abifet/Prova/
+
     - https://scikit-multiflow.readthedocs.io/en/stable/api/generated/skmultiflow.drift_detection.ADWIN.html#r15061f6a3a9d-1
