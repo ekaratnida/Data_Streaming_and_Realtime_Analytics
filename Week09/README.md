@@ -2,6 +2,8 @@
 ## Week 9 Scikit multiflow </br></br>
 
     - skmultiflow-demo-scipy2020.ipynb [1]
+        - https://scikit-learn.org/0.15/modules/scaling_strategies.html
+        - https://scikit-learn.org/stable/auto_examples/applications/plot_out_of_core_classification.html
     - jacob_montiel.pdf [2]
     - agr_a_20k.csv [1]
     - Creditcard fraud
