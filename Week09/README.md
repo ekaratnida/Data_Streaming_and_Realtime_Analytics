@@ -1,7 +1,7 @@
 # Semester 1/2564
 ## Week 9 Scikit multiflow </br></br>
 
-skmultiflow-demo-scipy2020.ipynb [1]
+1. skmultiflow-demo-scipy2020.ipynb
 - https://scikit-learn.org/0.15/modules/scaling_strategies.html
 - https://scikit-learn.org/stable/auto_examples/applications/plot_out_of_core_classification.html
 - jacob_montiel.pdf [2]
