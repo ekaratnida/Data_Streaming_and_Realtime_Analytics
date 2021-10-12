@@ -1,7 +1,7 @@
 # Semester 1/2564
 ## Week 9 Scikit multiflow </br></br>
 
-1. skmultiflow-demo-scipy2020.ipynb
+1. skmultiflow-demo-scipy2020.ipynb [https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/80285431412c15ce92a33e15dd2dc0619314ec95/Week09/multiflow/skmultiflow_demo_scipy2020.ipynb]
 - https://scikit-learn.org/0.15/modules/scaling_strategies.html
 - https://scikit-learn.org/stable/auto_examples/applications/plot_out_of_core_classification.html
 - jacob_montiel.pdf [2]
@@ -58,7 +58,7 @@ G. Hulten, L. Spencer, and P. Domingos. Mining time-changing data streams. In KD
 
 ***Reference***
 
-[1] Notebook: https://github.com/jacobmontiel/skmultiflow-demo-scipy2020/blob/master/skmultiflow-demo-scipy2020.ipynb </br>
+[1] Original notebook: https://github.com/jacobmontiel/skmultiflow-demo-scipy2020/blob/master/skmultiflow-demo-scipy2020.ipynb </br>
 [2] Paper: http://conference.scipy.org/proceedings/scipy2020/pdfs/jacob_montiel.pdf </br>
 [3] His talk: https://www.youtube.com/watch?v=sw85SCv847Y </br>
 [4] SpaceWars game: https://github.com/DanPetersson/SpaceWars.git </br>
