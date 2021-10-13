@@ -10,8 +10,8 @@
 | 7     |     Apache Spark (I) & Scikit-multiflow (I) |
 | 8     |     Apache Spark (II) & Scikit-multiflow (II) | 
 | -     |     | Midterm exam (30%) |
-| 9     |     Video game analytics (I) | 
-| 10    |     Video game analytics (II) | Assign Quiz 2 (20%), present Week 13 |
+| 9     |     Scikit-multiflow + classification | 
+| 10    |     Video game analytics | Assign Quiz 2 (20%), present Week 13 |
 | 11    |     Clustering in data streams |
 | 12    |     Clustering in data streams | Present project proposal |
 | 13    |     Real-time bidding |
