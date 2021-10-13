@@ -17,7 +17,6 @@
 | 13    |     Real-time bidding |
 | 14    |     Automated trading: MT4 + python (Finance)| 
 | 15    |     Present Final project (40%) |
-| -     |     | Present Final project (40%) | 
 
 # Last quiz (2563/2)
 
