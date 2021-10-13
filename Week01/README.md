@@ -39,3 +39,4 @@ twitterStream = Stream(auth, listener())
 twitterStream.filter(track=["popcat"])
 ```
 
+Good case study: https://www.youtube.com/watch?v=yIFOCYy7Wmc
