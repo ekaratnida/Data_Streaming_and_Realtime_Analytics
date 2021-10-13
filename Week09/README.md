@@ -1,7 +1,9 @@
 # Semester 1/2564
 ## Week 9 Scikit multiflow </br></br>
 
-1. skmultiflow-demo-scipy2020.ipynb [https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/80285431412c15ce92a33e15dd2dc0619314ec95/Week09/multiflow/skmultiflow_demo_scipy2020.ipynb
+### 9.1 What we've learned so far </br>
+
+### 9.2 skmultiflow-demo-scipy2020.ipynb 
 - Creditcard fraud
   - Isolation Forest Model: https://medium.com/analytics-vidhya/credit-card-fraud-detection-in-python-using-scikit-learn-f9046a030f50
   - Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud/data#
