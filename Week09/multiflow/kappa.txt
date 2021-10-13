@@ -1,0 +1,51 @@
+Cohen's Kappa
+- metric to measure inter-rater reliability
+- good for Imbalanced data
+k = (p0 - pe)/(1-pe) 
+*p0 = The observerd proportionate agreement, pe= probability of random agreement
+k = -1...1
+Example a group of 50 people, two reviewers (Mr.A,B), yes no
+            	    	B
+    		yes 	| 	no
+  yes |  	a (20)  |  	b (5)
+A 
+  no  |  	c (10)  |  	d (15)
+
+p0 = a + d
+    _______ = (20+15)/50 = 0.7
+    a+b+c+d
+
+pe -> A said "Yes" to 25 people (a+b), "No" to 25 people (c+d). Thus, A said "Yes" 50% of the time.
+   -> B said "Yes" to 30 people (a+c), "No" to 20 people (c+d). Thus, B said "Yes" 60% of the time.
+pe = pyes + pno
+   
+So, the expected prob. that both would say yes at random is pyes = (a+b)/(a+b+c+d) x (a+c)/(a+b+c+d)
+= 0.5*0.6 = 0.3
+   the expected prob. that both would say no at random is pno = (c+d)/(a+b+c+d) x (b+d)/(a+b+c+d)
+= 0.5*0.4 = 0.2
+pe = 0.3 + 0.2 = 0.5
+k = (0.7-0.5)/(1-0.5) = 0.4
+< 0 no agreement
+0-0.2 = slight, 0.21 - 0.4 = fair, 0.41-0.6 = moderate agreement, 0.61 - 0.8 = substantial agreement, 0.81 - 1 = perfect agreement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
