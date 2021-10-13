@@ -8,15 +8,15 @@
 | 5     |     Internet of Things (IoT) | 
 | 6     |     Iot: Smartphone data |
 | 7     |     Apache Spark (I) & Scikit-multiflow (I) |
-| 8     |     Apache Spark (II) & Scikit-multiflow (II) | Assign Quiz 2 (20%), present Week 11 |
+| 8     |     Apache Spark (II) & Scikit-multiflow (II) | 
 | -     |     | Midterm exam (30%) |
 | 9     |     Video game analytics (I) | 
-| 10    |     Video game analytics (II) | 
+| 10    |     Video game analytics (II) | Assign Quiz 2 (20%), present Week 13 |
 | 11    |     Clustering in data streams |
-| 12    |     Classification in data streams | Present project proposal |
+| 12    |     Clustering in data streams | Present project proposal |
 | 13    |     Real-time bidding |
-| 14    |     Automated trading: MT4 + python (I) | 
-| 15    |     Automated trading: MT4 + python (II) |
+| 14    |     Automated trading: MT4 + python (Finance)| 
+| 15    |     Present Final project (40%) |
 | -     |     | Present Final project (40%) | 
 
 # Last quiz (2563/2)
