@@ -29,4 +29,4 @@ Quiz3 Game behavior analytics: https://youtu.be/UMXkgR5WOcY
 # Interesting papers
 - https://arxiv.org/pdf/2104.00087.pdf
 
-https://ko-fi.com/pokekarat
+<a href='https://ko-fi.com/E1E46KZ4T' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
