@@ -29,4 +29,4 @@ Quiz3 Game behavior analytics: https://youtu.be/UMXkgR5WOcY
 # Interesting papers
 - https://arxiv.org/pdf/2104.00087.pdf
 
-
+https://ko-fi.com/pokekarat
