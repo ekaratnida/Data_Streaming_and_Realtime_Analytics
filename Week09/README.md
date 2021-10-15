@@ -8,7 +8,8 @@
   - Isolation Forest Model: https://medium.com/analytics-vidhya/credit-card-fraud-detection-in-python-using-scikit-learn-f9046a030f50
   - Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud/data#
         
- ______
+T.A. recommended tool --> https://bokeh.org/
+______
 
 
 # Semester 2/2563
