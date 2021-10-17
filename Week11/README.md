@@ -5,6 +5,7 @@
 - Tutorial.pdf [MOA]
 - StreamDM (Huawei) http://huawei-noah.github.io/streamDM/docs/StreamKM.html [2]
 - Spark streaming http://spark.apache.org/docs/latest/mllib-clustering.html#streaming-k-means [3]
+- https://github.com/online-ml/river
 
 
 ## Reference
