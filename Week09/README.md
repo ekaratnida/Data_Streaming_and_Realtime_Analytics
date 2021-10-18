@@ -7,8 +7,11 @@
 - Creditcard fraud
   - Isolation Forest Model: https://medium.com/analytics-vidhya/credit-card-fraud-detection-in-python-using-scikit-learn-f9046a030f50
   - Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud/data#
-  - <img width="475" alt="Screen Shot 2564-10-18 at 14 49 20" src="https://user-images.githubusercontent.com/69342162/137690013-b248fabe-8b13-4b86-a253-107d7b35679b.png">
+  - ![image](https://user-images.githubusercontent.com/69342162/137707122-8084f806-8e5d-410f-bada-2912e2fce545.png)
+  - ![image](https://user-images.githubusercontent.com/69342162/137707484-bdae3d2e-27f3-4516-9fb5-401c6c4613eb.png)
+  - ![image](https://user-images.githubusercontent.com/69342162/137708102-b5609ba2-f6fe-4002-bbef-5543ab5c4aee.png)
   - [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jDxpm53hJSA/0.jpg)](https://www.youtube.com/watch?v=jDxpm53hJSA)
+  - ref: https://www.slideshare.net/Davix95/mining-high-speed-data-streams-hoeffding-and-vfdt
         
 T.A. recommended tool --> https://bokeh.org/
 ______
