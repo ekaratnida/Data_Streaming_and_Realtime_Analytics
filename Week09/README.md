@@ -7,6 +7,8 @@
 - Creditcard fraud
   - Isolation Forest Model: https://medium.com/analytics-vidhya/credit-card-fraud-detection-in-python-using-scikit-learn-f9046a030f50
   - Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud/data#
+  - <img width="475" alt="Screen Shot 2564-10-18 at 14 49 20" src="https://user-images.githubusercontent.com/69342162/137690013-b248fabe-8b13-4b86-a253-107d7b35679b.png">
+  - [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jDxpm53hJSA/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
         
 T.A. recommended tool --> https://bokeh.org/
 ______
