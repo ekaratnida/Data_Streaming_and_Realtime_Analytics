@@ -43,7 +43,7 @@ ______
 ***Reference***
 
 [1] Original notebook: https://github.com/jacobmontiel/skmultiflow-demo-scipy2020/blob/master/skmultiflow-demo-scipy2020.ipynb </br>
-[1.1] https://www.cms.waikato.ac.nz/~abifet/book/contents.html </br>
+[1.1] Hoeffding Tree: https://www.cms.waikato.ac.nz/~abifet/book/contents.html </br>
 [2] Paper: http://conference.scipy.org/proceedings/scipy2020/pdfs/jacob_montiel.pdf </br>
 [3] His talk: https://www.youtube.com/watch?v=sw85SCv847Y </br>
 [4] SpaceWars game: https://github.com/DanPetersson/SpaceWars.git </br>
