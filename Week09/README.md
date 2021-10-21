@@ -14,7 +14,8 @@
 
   - ref: https://www.slideshare.net/Davix95/mining-high-speed-data-streams-hoeffding-and-vfdt
         
-T.A. recommended tool --> https://bokeh.org/
+T.A. recommended tool --> https://bokeh.org/ <br>
+Gini index --> https://blog.quantinsti.com/gini-index/
 ______
 
 
