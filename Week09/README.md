@@ -57,8 +57,8 @@ ______
 [5] How to Implement Real-time Analytics in Online Games: https://developer.microsoft.com/en-us/games/blog/how-to-implement-real-time-analytics-in-online-games/ </br>
 [6] Interesting info: https://scikit-learn.org/0.15/modules/scaling_strategies.html#incremental-learning </br>
 [7] Apache beam: https://beam.apache.org/get-started/mobile-gaming-example/ </br>
-[8] ADWIN: https://www.cs.upc.edu/~abifet/Prova/
-[9] http://cs229.stanford.edu/extra-notes/hoeffding.pdf
+[8] ADWIN: https://www.cs.upc.edu/~abifet/Prova/ <br>
+[9] http://cs229.stanford.edu/extra-notes/hoeffding.pdf <br>
 [10] https://people.engr.tamu.edu/andreas-klappenecker/csce689-s10/markov.pdf
 
     - https://scikit-multiflow.readthedocs.io/en/stable/api/generated/skmultiflow.drift_detection.ADWIN.html#r15061f6a3a9d-1
