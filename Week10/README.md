@@ -11,7 +11,7 @@
 + pip install pygame (If you don't have it.)
     - If you don't want to play the game in a fullscreen mode, you can comment line 419 of space_wars.py out and then uncomment line 418 of the same file.
 
-## 2/2563
+# 2/2563
 
 **10.3 Introduction to MOA** [3] </br>
 
