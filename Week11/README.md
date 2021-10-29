@@ -2,7 +2,9 @@
 ## Outline </br>
 
 ## 1/2564
-- River https://riverml.xyz/latest/api/cluster/CluStream/
+1) Lecture: Week11/KDD2-4-StreamClustering.pdf
+2) MOA
+3) River: https://riverml.xyz/latest/api/cluster/CluStream/
 
 ## 2/2563
 - https://www.cms.waikato.ac.nz/~abifet/book/chapter_9.html
