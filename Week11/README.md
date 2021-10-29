@@ -3,8 +3,12 @@
 
 ## 1/2564
 1) Lecture: https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/29708f1a9defbc65bda2bbb4d7ac3ca9395d8a2c/Week11/KDD2-4-StreamClustering.pdf
-2) MOA
+2) MOA: <br>
+   2.1 Download: https://sourceforge.net/projects/moa-datastream/ <br>
+   2.2 Tutorial: https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/fc8ccaa2bf651aa68b2f905109e07a97664c81bb/Week11/Tutorial.pdf <br>
 3) River: https://riverml.xyz/latest/api/cluster/CluStream/
+
+---
 
 ## 2/2563
 - https://www.cms.waikato.ac.nz/~abifet/book/chapter_9.html
