@@ -2,7 +2,7 @@
 ## Outline </br>
 
 ## 1/2564
-1) Lecture: Week11/KDD2-4-StreamClustering.pdf
+1) Lecture: https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/29708f1a9defbc65bda2bbb4d7ac3ca9395d8a2c/Week11/KDD2-4-StreamClustering.pdf
 2) MOA
 3) River: https://riverml.xyz/latest/api/cluster/CluStream/
 
