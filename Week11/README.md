@@ -2,6 +2,7 @@
 ## Outline </br>
 
 ## 1/2564
+0) What we have learned so far.
 1) Lecture: https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/29708f1a9defbc65bda2bbb4d7ac3ca9395d8a2c/Week11/KDD2-4-StreamClustering.pdf
 2) MOA: <br>
    2.1 Download: https://sourceforge.net/projects/moa-datastream/ <br>
