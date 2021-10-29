@@ -18,6 +18,12 @@
 | 14    |     Automated trading: MT4 + python (Finance)| 
 | 15    |     Present Final project (40%) |
 
+# Visualization
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/xr2n_q1yw5Q/0.jpg)](https://www.youtube.com/watch?v=xr2n_q1yw5Q)
+
+https://github.com/scriptkiid/Python-Plotly-Websockets-Dashboard
+
 # Last quiz (2563/2)
 
 Quiz1 TF-IDF: https://www.youtube.com/watch?v=ulo_U6-qUwA
