@@ -10,3 +10,5 @@ given the choices of the opponent, and what was actually achieved.
 Ref: http://pages.stern.nyu.edu/~dbackus/GE_asset_pricing/computation/Pucci/Lec-24-v1.pdf
 ```
 https://www.kaggle.com/rohanrao/riiid-ftrl-ftw
+
+https://amueller.github.io/COMS4995-s20/slides/aml-10-calibration-imbalanced-data/#53
