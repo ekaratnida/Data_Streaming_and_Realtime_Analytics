@@ -1,5 +1,8 @@
-## Binance api
+## Binance api with postman
 https://academy.binance.com/en/articles/binance-api-series-pt-1-spot-trading-with-postman
+
+## Binance api with python
+https://github.com/sammchardy/python-binance
 
 ## Algorithmic Trading in Practice <br>
 https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp
