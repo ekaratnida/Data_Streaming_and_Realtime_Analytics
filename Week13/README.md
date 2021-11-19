@@ -12,3 +12,5 @@ Ref: http://pages.stern.nyu.edu/~dbackus/GE_asset_pricing/computation/Pucci/Lec-
 https://www.kaggle.com/rohanrao/riiid-ftrl-ftw
 
 https://amueller.github.io/COMS4995-s20/slides/aml-10-calibration-imbalanced-data/#53
+
+https://www.kaggle.com/pokekarat/ftrl-starter-code/edit
