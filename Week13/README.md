@@ -1,4 +1,4 @@
-## Glossary
+### Glossary
 
 ```
 1. What is regret in online learning?
@@ -14,8 +14,11 @@ Ref: http://pages.stern.nyu.edu/~dbackus/GE_asset_pricing/computation/Pucci/Lec-
 2. Follow The Regularized Leader (FTRL) is 
 an adaptive-learning-rate sparse logistic-regression with efficient L1-L2-regularization
 ```
-https://www.kaggle.com/rohanrao/riiid-ftrl-ftw
 
-https://amueller.github.io/COMS4995-s20/slides/aml-10-calibration-imbalanced-data/#53
+### Dataset
+1. https://drive.google.com/drive/folders/19NiEAi4N0yzq04pGTZ0F1GJbBROz0SKc?usp=sharing
 
-https://www.kaggle.com/pokekarat/ftrl-starter-code/edit
+### Ref:
+1. https://www.kaggle.com/rohanrao/riiid-ftrl-ftw
+2. https://amueller.github.io/COMS4995-s20/slides/aml-10-calibration-imbalanced-data/#53
+3. https://www.kaggle.com/pokekarat/ftrl-starter-code/edit
