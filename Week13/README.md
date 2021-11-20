@@ -16,7 +16,7 @@ an adaptive-learning-rate sparse logistic-regression with efficient L1-L2-regula
 ```
 
 ### Dataset
-1. https://drive.google.com/drive/folders/19NiEAi4N0yzq04pGTZ0F1GJbBROz0SKc?usp=sharing
+1. FTRL: https://drive.google.com/drive/folders/19NiEAi4N0yzq04pGTZ0F1GJbBROz0SKc?usp=sharing
 
 ### Ref:
 1. https://www.kaggle.com/rohanrao/riiid-ftrl-ftw
