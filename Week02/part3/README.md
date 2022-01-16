@@ -57,6 +57,7 @@ By default, the runtime exposes its REST API on port `8083`. You can change this
 
 Let's start the Connect runtime using the following command (C:\kafka_2.13-2.7.0>):
 
+Kafka cluster should be started first !!!
 ```sh
 bin\windows\connect-distributed.bat config\connect-distributed.properties
 ```
