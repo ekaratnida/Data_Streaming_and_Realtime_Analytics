@@ -33,12 +33,9 @@ In order to complete this workshop, you need to have the following dependencies 
 
 In this workshop, we will use the Kafka command line tools.
 
-[Download](https://drive.google.com/drive/folders/1FTdo0sqTpUwRl4EBtFBbXt6fRjtjAbi6?usp=sharing) binary package from the Apache Kafka website, uncompress it.
+[Download](https://drive.google.com/drive/folders/1FTdo0sqTpUwRl4EBtFBbXt6fRjtjAbi6?usp=sharing) binary package from the Apache Kafka website, unzip it, and move the folder to drive c.
 
-```sh
-> tar -xzf kafka_2.13-2.7.0.tgz
-> cd kafka_2.13-2.7.0
-```
+!!! Put kafka folder in drive D may cause the problem (long sth)
 
 ## Setup Kafka cluster
 # Setting up Apache Kafka on a local machine
@@ -112,6 +109,8 @@ Note that if a server is off,
 (2) delete all existing folders and files in "C:\tmp" and "C:\kafka_2.13-2.7.0\logs", and 
 (3) run again.
 ```
+
+After this, you can use script from Week3 part1 to automately run the Kafka Cluster
 
 ## Menu
 Continue to [part 2](../part2/README.md)
