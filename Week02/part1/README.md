@@ -33,7 +33,7 @@ In order to complete this workshop, you need to have the following dependencies 
 
 In this workshop, we will use the Kafka command line tools.
 
-[Download](https://downloads.apache.org/kafka/2.7.0/kafka_2.13-2.7.0.tgz) binary package from the Apache Kafka website, uncompress it.
+[Download](https://drive.google.com/drive/folders/1FTdo0sqTpUwRl4EBtFBbXt6fRjtjAbi6?usp=sharing) binary package from the Apache Kafka website, uncompress it.
 
 ```sh
 > tar -xzf kafka_2.13-2.7.0.tgz
