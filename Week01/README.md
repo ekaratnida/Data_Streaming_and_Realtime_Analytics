@@ -7,6 +7,9 @@ Python package https://pypi.org/project/pytchat/
 
 <img width="751" alt="Screen Shot 2564-08-11 at 11 50 23" src="https://user-images.githubusercontent.com/69342162/128971375-c60b39a2-0887-40ed-ae19-674cab440160.png">
 
+![image](https://user-images.githubusercontent.com/69342162/151294628-35889347-7a67-43ae-bb2d-5732637ca163.png)
+https://towardsdatascience.com/deep-dive-into-netflixs-recommender-system-341806ae3b48
+
 ```python
 import pytchat
 chat = pytchat.create(video_id="oTSzxLvoEJE")
