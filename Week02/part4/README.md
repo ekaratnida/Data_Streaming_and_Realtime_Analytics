@@ -222,3 +222,10 @@ back to [part 3](../part3/README.md)
 ### Alternative to Java --> Python: https://github.com/robinhood/faust (I haven’t tried yet.)
 ### Gradlew command usage: https://github.com/apache/kafka
 ### Colab way: https://colab.research.google.com/drive/1rsmLLR1T2o1FANEMbQOGdXlFZ9j6uPfG?usp=sharing
+
+## MAC command
+
+bin/kafka-console-consumer.sh --bootstrap-server "ec2-13-229-46-113.ap-southeast-1.compute.amazonaws.com:9092" --topic streams-wordcount-output --from-beginning --formatter kafka.tools.DefaultMessageFormatter --property print.key=true --property print.value=true --property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
+
+bin/kafka-console-producer.sh --bootstrap-server "ec2-13-229-46-113.ap-southeast-1.compute.amazonaws.com:9092" --topic streams-plaintext-input
+
