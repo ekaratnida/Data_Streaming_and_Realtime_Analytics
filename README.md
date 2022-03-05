@@ -18,6 +18,10 @@
 | 14    |     Automated trading: MT4 + python (Finance)| 
 | 15    |     Present Final project (40%) |
 
+# Install git
+
+https://git-scm.com/download/win
+
 # Visualization
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/xr2n_q1yw5Q/0.jpg)](https://www.youtube.com/watch?v=xr2n_q1yw5Q)
