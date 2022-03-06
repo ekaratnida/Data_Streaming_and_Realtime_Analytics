@@ -64,6 +64,19 @@ Kafka provides a default Kafka configuration file, `config\server.properties`. W
     - `config\server2.properties`
 
 2. In each of three files:
+    - Replace line 21 with `broker.id=<BROKER_ID>`
+    - Replace line 31 with `listeners=PLAINTEXT://:9<BROKER_ID>92`
+    - Replace line 60 with `log.dirs=/tmp/kafka<BROKER_ID>-logs`
+    
+    `where <BROKER_ID>` is the number of the file name, 
+     
+    ```html
+        For example, `config/server2.properties` includes
+        - `broker.id=2`
+        - `listeners=PLAINTEXT://:9292`
+        - `log.dirs=/tmp/kafka2-logs`
+    ```
+    
     - Replace lines from 74 to 76 with:
 
     ```properties
@@ -71,16 +84,6 @@ Kafka provides a default Kafka configuration file, `config\server.properties`. W
     transaction.state.log.replication.factor=3
     transaction.state.log.min.isr=3
     ```
-    - Replace line 21 with `broker.id=<BROKER_ID>`
-    - Replace line 31 with `listeners=PLAINTEXT://:9<BROKER_ID>92`
-    - Replace line 60 with `log.dirs=/tmp/kafka<BROKER_ID>-logs`
-     
-    `where <BROKER_ID>` is the number of the file name, 
-     
-    For example, `config/server2.properties` includes
-    - `broker.id=2`
-    - `listeners=PLAINTEXT://:9292`
-    - `log.dirs=/tmp/kafka2-logs`  
 
 ## 2) Starting the Kafka cluster
 
