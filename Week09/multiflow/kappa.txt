@@ -33,6 +33,9 @@ Rule
 0.61 - 0.8 = substantial agreement, 
 0.81 - 1 = perfect agreement
 
+Reference
+[1] https://www.l3harrisgeospatial.com/docs/calculatingconfusionmatrices.html
+
 
 
 
