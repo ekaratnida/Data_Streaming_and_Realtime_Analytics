@@ -17,16 +17,19 @@ p0 = a + d
 
 pe -> A said "Yes" to 25 people (a+b), "No" to 25 people (c+d). Thus, A said "Yes" 50% of the time.
    -> B said "Yes" to 30 people (a+c), "No" to 20 people (c+d). Thus, B said "Yes" 60% of the time.
-pe = pyes + pno
-   
-So, the expected prob. that both would say yes at random is pyes = (a+b)/(a+b+c+d) x (a+c)/(a+b+c+d)
-= 0.5*0.6 = 0.3
-   the expected prob. that both would say no at random is pno = (c+d)/(a+b+c+d) x (b+d)/(a+b+c+d)
-= 0.5*0.4 = 0.2
-pe = 0.3 + 0.2 = 0.5
-k = (0.7-0.5)/(1-0.5) = 0.4
+pe = p_yes + p_no
+So, the expected prob. that both A and B would say yes at random is p_yes = (a+b)/(a+b+c+d) x (a+c)/(a+b+c+d) = 0.5*0.6 = 0.3
+    the expected prob. that both A and B would say no at random is p_no = (c+d)/(a+b+c+d) x (b+d)/(a+b+c+d) = 0.5*0.4 = 0.2
+Then, pe = 0.3 + 0.2 = 0.5
+Thus, k = (0.7-0.5)/(1-0.5) = 0.4
+
+Rule
 < 0 no agreement
-0-0.2 = slight, 0.21 - 0.4 = fair, 0.41-0.6 = moderate agreement, 0.61 - 0.8 = substantial agreement, 0.81 - 1 = perfect agreement
+0-0.2 = slight, 
+0.21 - 0.4 = fair, 
+0.41-0.6 = moderate agreement, 
+0.61 - 0.8 = substantial agreement, 
+0.81 - 1 = perfect agreement
 
 
 
