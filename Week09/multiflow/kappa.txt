@@ -1,6 +1,7 @@
 Cohen's Kappa
 
-- The kappa coefficient measures the agreement between classification and truth values. A kappa value of 1 represents perfect agreement, while a value of 0 represents no agreement. The kappa coefficient is computed as follows:
+- The kappa coefficient measures the agreement between classification and truth values. 
+A kappa value of 1 represents perfect agreement, while a value of 0 represents no agreement. The kappa coefficient is computed as follows:
 
 k = (p0 - pe)/(1-pe) 
 *p0 = The observerd proportionate agreement, pe= probability of random agreement
