@@ -14,8 +14,15 @@
 
   - ref: https://www.slideshare.net/Davix95/mining-high-speed-data-streams-hoeffding-and-vfdt
         
-T.A. recommended tool --> https://bokeh.org/ <br>
-Gini index --> https://blog.quantinsti.com/gini-index/
+## Gini index --> https://blog.quantinsti.com/gini-index/
+
+Gini index or Gini impurity measures the degree or probability of a particular variable being wrongly classified when it is randomly chosen.
+
+0 denotes that all elements belong to a certain class or if there exists only one class, and
+
+0.5 denotes equally distributed elements into some classes.
+
+1 denotes that the elements are randomly distributed across various classes.
 ______
 
 
