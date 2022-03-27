@@ -17,11 +17,15 @@ p0 = a + d
     _______ = (20+15)/50 = 0.7
     a+b+c+d
 
-pe -> A said "Yes" to 25 people (a+b), "No" to 25 people (c+d). Thus, A said "Yes" 50% of the time.
-   -> B said "Yes" to 30 people (a+c), "No" to 20 people (c+d). Thus, B said "Yes" 60% of the time.
-pe = p_yes + p_no
+pe -> A said "Yes" to 25 people (a+b) out of 50 people. Thus, A said "Yes" 50% of the time.
+   -> B said "Yes" to 30 people (a+c) out of 50 people. Thus, B said "Yes" 60% of the time.
+   -> A said "No" to 25 people (a+b) out of 50 people. Thus, A said "No" 50% of the time.
+   -> B said "No" to 20 people (a+c) out of 50 people. Thus, B said "No" 40% of the time.
+
 So, the expected prob. that both A and B would say yes at random is p_yes = (a+b)/(a+b+c+d) x (a+c)/(a+b+c+d) = 0.5*0.6 = 0.3
     the expected prob. that both A and B would say no at random is p_no = (c+d)/(a+b+c+d) x (b+d)/(a+b+c+d) = 0.5*0.4 = 0.2
+    
+pe = p_yes (A and B) + p_no (A and B)
 Then, pe = 0.3 + 0.2 = 0.5
 Thus, k = (0.7-0.5)/(1-0.5) = 0.4
 
