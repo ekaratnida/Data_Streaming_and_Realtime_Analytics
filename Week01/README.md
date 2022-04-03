@@ -1,5 +1,7 @@
 
-Week1 slide and interesting papers
+## Week1 slide and interesting papers
+
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/scenarios/time-series
 
 Lab 1: reading real-time chat from Youtube live (Example of #Ch3ThailandNews)
 
