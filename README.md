@@ -26,9 +26,11 @@ https://git-scm.com/download/win
 
 https://pok-ekarat.medium.com/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A-real-time-monitoring-%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-python-influxdb-%E0%B9%81%E0%B8%A5%E0%B8%B0-grafana-625480a6e511
 
-## Revision
+## TBD
 
 https://www.influxdata.com/what-is-time-series-data/
+
+https://github.com/tklouie/PyData_LA_2018
 
 ## Visualization
 
