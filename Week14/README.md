@@ -14,3 +14,6 @@ Suppose a trader follows these simple trade criteria:
 Using these two simple instructions, a computer program will automatically monitor the stock price (and the moving average indicators) and place the buy and sell orders when the defined conditions are met. 
 The trader no longer needs to monitor live prices and graphs or put in the orders manually. The algorithmic trading system does this automatically by correctly identifying the trading opportunity. 
 
+## Bot trading
+https://github.com/edeng23/binance-trade-bot
+
