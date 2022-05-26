@@ -45,3 +45,7 @@ twitterStream.filter(track=["popcat"])
 ```
 
 Good case study: https://www.youtube.com/watch?v=yIFOCYy7Wmc
+
+# Img
+<img width="1179" alt="Screen Shot 2565-05-26 at 14 13 19" src="https://user-images.githubusercontent.com/69342162/170437844-97eef492-2ff7-46b1-a714-8e455a19a5d6.png">
+Ref: https://www.youtube.com/watch?v=rvqCqK2Lpjg
