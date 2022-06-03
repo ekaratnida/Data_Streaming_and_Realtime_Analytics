@@ -1,6 +1,6 @@
 ## Week1 slide
 
-Lab 1: reading real-time chat from Youtube live (Example of #Ch3ThailandNews)
+### Lab 1: reading real-time chat from Youtube live (Example of #Ch3ThailandNews)
 
 Python package https://pypi.org/project/pytchat/
 
@@ -15,7 +15,7 @@ while chat.is_alive():
         # write each line to file for kafka connector
 ```
 
-Lab 2: Twitter stream
+### Lab 2: Twitter stream
 
 ``` python
 import tweepy
