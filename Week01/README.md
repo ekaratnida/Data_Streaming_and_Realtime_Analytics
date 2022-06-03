@@ -44,4 +44,4 @@ twitterStream.filter(track=["popcat"])
 1. Modify the slide by adding the images from this website, including big data, batch, and real-time processing
 2. https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/
 3. Add "redash" for visualization from druid
-4. Add "sparkml" or other tech like river, vowelrabbit, in betwee spark stream and druid.
+4. Add "sparkml" or other tech like river, vopal wabbit (https://booking.ai/crunching-big-data-with-4-machine-learning-libraries-284ae3167885), in betwee spark stream and druid.
