@@ -40,3 +40,4 @@ twitterStream.filter(track=["popcat"])
 ### Todo
 1. Modify the slide by adding the images from this website, including big data, batch, and real-time processing
 2. https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/
+3. Add "redash" for visualization from druid
