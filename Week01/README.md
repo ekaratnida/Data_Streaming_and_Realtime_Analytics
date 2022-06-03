@@ -1,5 +1,8 @@
 ## Week1 slide
 
+![image](https://user-images.githubusercontent.com/69342162/171875698-48b20d55-e6ea-4f7b-a987-df779031dc0f.png)
+
+
 ### Lab 1: reading real-time chat from Youtube live (Example of #Ch3ThailandNews)
 
 Python package https://pypi.org/project/pytchat/
