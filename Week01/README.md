@@ -51,3 +51,4 @@ twitterStream.filter(track=["popcat"])
 
 ### Dataset
 - https://moa.cms.waikato.ac.nz/datasets/
+- https://www.jigsawacademy.com/blogs/ai-ml/time-series-dataset
