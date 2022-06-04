@@ -45,3 +45,7 @@ twitterStream.filter(track=["popcat"])
 2. https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/
 3. Add "redash" for visualization from druid
 4. Add "sparkml" or other tech like river, vopal wabbit (https://booking.ai/crunching-big-data-with-4-machine-learning-libraries-284ae3167885), https://mlcourse.ai/book/topic08/topic08_intro.html in betwee spark stream and druid.
+
+### Reference
+- https://huyenchip.com/2020/12/27/real-time-machine-learning.html
+- 
