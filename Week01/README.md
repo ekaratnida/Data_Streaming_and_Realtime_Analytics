@@ -1,4 +1,5 @@
 ## Week1 slide
+![image](https://user-images.githubusercontent.com/69342162/173461061-bfca49fc-f49f-4dce-94da-c88c1325ed65.png)
 
 ![image](https://user-images.githubusercontent.com/69342162/173226832-e3c42a60-72b2-4402-bd64-60a3004eb357.png)
 
