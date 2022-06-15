@@ -28,5 +28,7 @@ Docker: https://betterprogramming.pub/a-simple-apache-kafka-cluster-with-docker-
 ## Best blog
 - https://medium.com/agoda-engineering/adding-time-lag-to-monitor-kafka-consumer-2c626fa61cfc
 - https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-window-functions
-
+- https://docs.cloudera.com/HDPDocuments/HDP3/HDP-3.0.1/developing-storm-applications/content/understanding_sliding_and_tumbling_windows.html
+- https://docs.ksqldb.io/en/latest/concepts/time-and-windows-in-ksqldb-queries/
+- https://www.softnix.co.th/2018/09/13/%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3-kafka-sql-%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD-ksql-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%97%E0%B8%B2%E0%B8%87/
 
