@@ -49,9 +49,10 @@ twitterStream.filter(track=["popcat"])
 3. Add "redash" for visualization from druid
 4. Add "sparkml" or other tech like river, vopal wabbit (https://booking.ai/crunching-big-data-with-4-machine-learning-libraries-284ae3167885), https://mlcourse.ai/book/topic08/topic08_intro.html in betwee spark stream and druid.
 
-### Reference
+### Reference (Must read)
 - https://huyenchip.com/2020/12/27/real-time-machine-learning.html
 - https://www.confluent.io/learn/data-streaming/
+- https://medium.com/@chandanbaranwal/spark-streaming-vs-flink-vs-storm-vs-kafka-streams-vs-samza-choose-your-stream-processing-91ea3f04675b
 
 ### Dataset
 - https://moa.cms.waikato.ac.nz/datasets/
