@@ -51,6 +51,7 @@ twitterStream.filter(track=["popcat"])
 
 ### Reference
 - https://huyenchip.com/2020/12/27/real-time-machine-learning.html
+- https://www.confluent.io/learn/data-streaming/
 
 ### Dataset
 - https://moa.cms.waikato.ac.nz/datasets/
