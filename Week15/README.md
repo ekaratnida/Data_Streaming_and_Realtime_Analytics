@@ -13,3 +13,6 @@ https://www.youtube.com/watch?v=fAvrUsfMS4Y
 - https://ai.stackexchange.com/a/23227
 - https://huyenchip.com/2022/01/02/real-time-machine-learning-challenges-and-solutions.html
 - https://www.analyticsvidhya.com/blog/2018/01/online-learning-guide-text-classification-vowpal-wabbit-vw/
+
+## Time series
+- https://www.youtube.com/watch?v=ZshMjxblrKE
