@@ -1,11 +1,10 @@
-## Week1 slide
-![image](https://user-images.githubusercontent.com/69342162/173461061-bfca49fc-f49f-4dce-94da-c88c1325ed65.png)
+<!--![image](https://user-images.githubusercontent.com/69342162/173461061-bfca49fc-f49f-4dce-94da-c88c1325ed65.png)-->
 
 <!--![image](https://user-images.githubusercontent.com/69342162/173226832-e3c42a60-72b2-4402-bd64-60a3004eb357.png)-->
 
 <!--![image](https://user-images.githubusercontent.com/69342162/171875698-48b20d55-e6ea-4f7b-a987-df779031dc0f.png) -->
 
-
+<!--
 ### Lab 1: reading real-time chat from Youtube live (Example of #Ch3ThailandNews)
 
 Python package https://pypi.org/project/pytchat/
@@ -57,3 +56,4 @@ twitterStream.filter(track=["popcat"])
 ### Dataset
 - https://moa.cms.waikato.ac.nz/datasets/
 - https://www.jigsawacademy.com/blogs/ai-ml/time-series-dataset
+-->
