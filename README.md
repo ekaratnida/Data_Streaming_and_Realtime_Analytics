@@ -1,15 +1,14 @@
 ## Data_Streaming_and_Realtime_Analytics
 | Week  |  Topic | Materials Link |
 | ----  |  ---- | ---- |
-| 1     |     Introduction | https://drive.google.com/drive/folders/1pCP8i125ZpJEwhxtUQFqxcTLwWE1um-5?usp=sharing |
-| 2     |     Kafka technology | https://drive.google.com/drive/folders/1pCP8i125ZpJEwhxtUQFqxcTLwWE1um-5?usp=sharing |
-| 3     |     Kafka Streaming (I) | https://drive.google.com/drive/folders/1C-mIez_Mc0i1tjGtxDFuJSRujNnh6qoG?usp=sharing |
-| 4     |     Kafka Streaming (II) | https://drive.google.com/drive/folders/1rc0S6aT-jAXDY4qahIJTDDI0w4jsqTZm?usp=sharing |
-| 5     |     Internet of Things (IoT) | 
-| 6     |     Iot: Smartphone data |
-| 7     |     Apache Spark (I) & Scikit-multiflow (I) |
-| 8     |     Apache Spark (II) & Scikit-multiflow (II) | 
-| -     |     | Midterm exam (30%) |
+| 1     |     Introduction + review on big data  | https://drive.google.com/drive/folders/1pCP8i125ZpJEwhxtUQFqxcTLwWE1um-5?usp=sharing |
+| 2     |     Review on big data (continue) & data gathering | https://drive.google.com/drive/folders/1pCP8i125ZpJEwhxtUQFqxcTLwWE1um-5?usp=sharing |
+| 3     |     Data streaming distribution ( Kafka I ) | https://drive.google.com/drive/folders/1C-mIez_Mc0i1tjGtxDFuJSRujNnh6qoG?usp=sharing |
+| 4     |     Data streaming distribution ( Kafka II ) | https://drive.google.com/drive/folders/1rc0S6aT-jAXDY4qahIJTDDI0w4jsqTZm?usp=sharing |
+| 5     |     Processing I (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week03 |
+| 6     |     Processing II (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week04 |
+| 7     |     Processing III (Spark streaming) |
+| -     |     No Midterm exam  | - |
 | 9     |     Scikit-multiflow + classification | 
 | 10    |     Video game analytics | Assign Quiz 2 (20%), present Week 13 |
 | 11    |     Clustering in data streams |
