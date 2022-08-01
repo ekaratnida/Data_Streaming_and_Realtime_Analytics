@@ -1,10 +1,10 @@
 ## Data_Streaming_and_Realtime_Analytics
-| Week  |  Topic | Exam |
+| Week  |  Topic | Materials Link |
 | ----  |  ---- | ---- |
-| 1     |     Introduction |
-| 2     |     Kafka technology |
-| 3     |     Kafka Streaming (I) |
-| 4     |     Kafka Streaming (II) | Assign Quiz 1 (10%), present Week 8 |
+| 1     |     Introduction | https://drive.google.com/drive/folders/1pCP8i125ZpJEwhxtUQFqxcTLwWE1um-5?usp=sharing |
+| 2     |     Kafka technology | https://drive.google.com/drive/folders/1pCP8i125ZpJEwhxtUQFqxcTLwWE1um-5?usp=sharing |
+| 3     |     Kafka Streaming (I) | https://drive.google.com/drive/folders/1C-mIez_Mc0i1tjGtxDFuJSRujNnh6qoG?usp=sharing |
+| 4     |     Kafka Streaming (II) | https://drive.google.com/drive/folders/1rc0S6aT-jAXDY4qahIJTDDI0w4jsqTZm?usp=sharing |
 | 5     |     Internet of Things (IoT) | 
 | 6     |     Iot: Smartphone data |
 | 7     |     Apache Spark (I) & Scikit-multiflow (I) |
