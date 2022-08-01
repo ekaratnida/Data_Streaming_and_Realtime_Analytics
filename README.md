@@ -7,7 +7,7 @@
 | 4     |     Data streaming distribution ( Kafka II ) | https://drive.google.com/drive/folders/1rc0S6aT-jAXDY4qahIJTDDI0w4jsqTZm?usp=sharing |
 | 5     |     Processing I (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week03 |
 | 6     |     Processing II (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week04 |
-| 7     |     Processing III (Spark streaming) |
+| 7     |     Processing III (Spark streaming) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week06 https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week07 |
 | -     |     No Midterm exam  | - |
 | 9     |     Scikit-multiflow + classification | 
 | 10    |     Video game analytics | Assign Quiz 2 (20%), present Week 13 |
