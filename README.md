@@ -9,13 +9,13 @@
 | 6     |     Processing II (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week04 |
 | 7     |     Processing III (Spark streaming) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week06 https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week07 |
 | -     |     No Midterm exam  | - |
-| 9     |     Scikit-multiflow + classification | 
-| 10    |     Video game analytics | Assign Quiz 2 (20%), present Week 13 |
-| 11    |     Clustering in data streams |
-| 12    |     Clustering in data streams | Present project proposal |
-| 13    |     Real-time bidding |
-| 14    |     Automated trading: MT4 + python (Finance)| 
-| 15    |     Present Final project (40%) |
+| 9     |     Online machine learning (classification) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week11 | 
+| 10    |     Online machine learning (clustering) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week12 |
+| 11    |     Mobile IoT I |  |
+| 12    |     Mobile IoT II |  |
+| 13    |     Game I |  |
+| 14    |     Game II |  |
+| 15    |     Trading |  |
 
 ## Install git
 
