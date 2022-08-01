@@ -9,13 +9,13 @@
 | 6     |     Processing II (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week04 |
 | 7     |     Processing III (Spark streaming) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week06 https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week07 |
 | -     |     No Midterm exam  | - |
-| 9     |     Online machine learning (classification) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week11 | 
+| 9     |     Online machine learning (classification) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week9 | 
 | 10    |     Online machine learning (clustering) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week12 |
-| 11    |     Mobile IoT I |  |
-| 12    |     Mobile IoT II |  |
-| 13    |     Game I |  |
-| 14    |     Game II |  |
-| 15    |     Trading |  |
+| 11    |     Mobile IoT I | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week05 https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/main/Week06/Mobile-sensor.pdf |
+| 12    |     Mobile IoT II | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week08 |
+| 13    |     Game I | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week10 |
+| 14    |     Game II | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week10 |
+| 15    |     Trading | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week14 |
 
 ## Install git
 
