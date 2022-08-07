@@ -14,7 +14,7 @@ A **topic** is a category or feed name to which records are published. To create
 - <b> config </b> : [Some configurations](https://kafka.apache.org/documentation/#topicconfigs) can be applied per topic. If not specified, the broker defaults are used.
 - <b> topic </b> : A topic is referred by its name. It has to be unique within a cluster. Valid characters are alphanumerics plus a few symbols (`.`, `_` and `-`).
 
-Let's create our first topic. In a terminal, run the following command (C:\kafka_2.13-2.7.0\):
+Let's create our first topic. In a terminal, run the following command (C:\kafka_2.13-3.2.1\):
 
 ```sh
 bin\windows\kafka-topics.bat --bootstrap-server "localhost:9092,localhost:9192,localhost:9292" --create --replication-factor 3 --partitions 2 --topic my-first-topic
@@ -36,7 +36,7 @@ You should see this output:  `my-first-topic`
 ### Sending
 Kafka comes with a command line **producer** that takes data from a file or from standard input and sends it out as messages to the Kafka cluster. By default, each line will be sent as a separate message.
 
-Run the producer, and then type a few messages into the console to send to the server (C:\kafka_2.13-2.7.0).
+Run the producer, and then type a few messages into the console to send to the server (C:\kafka_2.13-3.2.1).
 
 ```sh
 bin\windows\kafka-console-producer.bat --bootstrap-server "localhost:9092,localhost:9192,localhost:9292" --topic my-first-topic
@@ -46,7 +46,7 @@ bin\windows\kafka-console-producer.bat --bootstrap-server "localhost:9092,localh
 > 
 ### Consuming
 
-Kafka also has a command line **consumer** that prints messages to standard output (C:\kafka_2.13-2.7.0>).
+Kafka also has a command line **consumer** that prints messages to standard output (C:\kafka_2.13-3.2.1>).
 
 ```sh
 bin\windows\kafka-console-consumer.bat --bootstrap-server "localhost:9092,localhost:9192,localhost:9292" --topic my-first-topic --from-beginning
