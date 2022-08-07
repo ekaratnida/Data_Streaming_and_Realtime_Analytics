@@ -36,9 +36,9 @@ This sample application consumes an input topic, counts how many times words app
 
 Let's use `WordCountDemo` to count words in our topic `streams-plaintext-input`.
 
-### Must have: download kafka source from https://archive.apache.org/dist/kafka/2.7.0/kafka-2.7.0-src.tgz
+### Must have: download kafka source from https://archive.apache.org/dist/kafka/3.2.1/kafka-3.2.1-src.tgz
 
-Save it as "C:\src\kafka-2.7.0-src".
+Save it as "C:\src\kafka-3.2.1-src".
 
 ### Updating WordCountDemo
 
@@ -172,15 +172,15 @@ The last line defines the output stream. Here, we are sending it to our output t
 
 Install [gradle](https://gradle.org/next-steps/?version=6.6&format=bin), Version 6.6   //Set Environment path 
 
-Under "C:\src\kafka-2.7.0-src" run
+Under "C:\src\kafka-3.2.1-src" run
 
 gradle assemble -x clients:javadoc streams:test-utils:javadoc streams:streams-scala:scaladoc connect:mirror-client:javadoc connect:api:javadoc core:javadoc
 
 ### After finishing gradle assemble
 ```sh
-Copy manually the file "kafka-streams-examples-2.7.0.jar" 
-from "C:\src\kafka-2.7.0-src\streams\examples\build\libs" 
-to "C:\kafka_2.13-2.7.0\libs"
+Copy manually the file "kafka-streams-examples-3.2.1.jar" 
+from "C:\src\kafka-3.2.1-src\streams\examples\build\libs" 
+to "C:\kafka_2.13-3.2.1\libs"
 ```
 
 ### 3. Checking the result
