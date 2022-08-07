@@ -55,7 +55,7 @@ status.storage.replication.factor=3
 
 By default, the runtime exposes its REST API on port `8083`. You can change this port by setting `rest.port=<PORT>`. The rest of this workshop assumes that the port is `8083`.
 
-Let's start the Connect runtime using the following command (C:\kafka_2.13-2.7.0>):
+Let's start the Connect runtime using the following command (C:\kafka_2.13-3.2.1>):
 
 Kafka cluster should be started first !!!
 ```sh
