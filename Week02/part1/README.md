@@ -52,7 +52,7 @@ We can start ZooKeeper with the default configuration file, by running the follo
 bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 ```
 
-May existing issue: https://stackoverflow.com/a/65466930
+May be an existing issue: https://stackoverflow.com/a/65466930
 
 We have now started a ZooKeeper ensemble consisting of a single server. Again, this is not suitable for production but it is enough to start a Kafka cluster.
 
