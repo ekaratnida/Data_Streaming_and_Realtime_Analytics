@@ -89,7 +89,7 @@ Kafka provides a default Kafka configuration file, `config\server.properties`. W
 
 ## 2) Starting the Kafka cluster
 
-Now that we have all the required configurations, let's start our brokers (C:\kafka_2.13-2.7.0):
+Now that we have all the required configurations, let's start our brokers (C:\kafka_2.13-3.2.1):
 
 ```sh
 bin\windows\kafka-server-start.bat config\server0.properties
@@ -111,7 +111,7 @@ Congratulations, you've now started your Kafka cluster!
 ```html
 Note that if a server is off,
 (1) close all terminals,
-(2) delete all existing folders and files in "C:\tmp" and "C:\kafka_2.13-2.7.0\logs", and 
+(2) delete all existing folders and files in "C:\tmp" and "C:\kafka_2.13-3.2.1\logs", and 
 (3) run again.
 ```
 
