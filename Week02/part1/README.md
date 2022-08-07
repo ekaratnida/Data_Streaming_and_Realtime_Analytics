@@ -46,11 +46,13 @@ Follow these steps if you want to set up a 3-broker Kafka cluster on a single ma
 
 The first step is to get ZooKeeper running. This is necessary in order to start Kafka:
 
-We can start ZooKeeper with the default configuration file, by running the following command when you are in c:\kafka-2.13-2.7.0\ path,
+We can start ZooKeeper with the default configuration file, by running the following command when you are in c:\kafka-2.13-3.2.1\ path,
 
 ```sh
 bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 ```
+
+May existing issue: https://stackoverflow.com/a/65466930
 
 We have now started a ZooKeeper ensemble consisting of a single server. Again, this is not suitable for production but it is enough to start a Kafka cluster.
 
