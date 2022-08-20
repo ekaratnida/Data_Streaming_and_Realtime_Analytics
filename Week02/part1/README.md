@@ -25,8 +25,8 @@ or in this conference presentation,
 
 In order to complete this workshop, you need to have the following dependencies installed:
 
-- [Java SDK](https://jdk.java.net/java-se-ri/10), Version 10 //Unzip --> //Set Environment path
-
+- [Java SDK](https://jdk.java.net/java-se-ri/10), Version 10
+- Accept License Agreement --> Unzip --> //Set Environment path
 - java -version
 
 ## Downloading Apache Kafka
