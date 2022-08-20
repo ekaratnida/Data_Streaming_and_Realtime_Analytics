@@ -170,7 +170,7 @@ The last line defines the output stream. Here, we are sending it to our output t
 
 ### 2. After making these updates done, we need to recompile it. You can do that by running:
 
-Install [gradle](https://gradle.org/next-steps/?version=6.6&format=bin), Version 6.6   //Set Environment path 
+Install [gradle](https://gradle.org/install/) and then set the Environment path 
 
 Under "C:\src\kafka-3.2.1-src" run
 
