@@ -174,11 +174,17 @@ Install [gradle](https://gradle.org/install/) and then set the Environment path
 
 Under "C:\src\kafka-3.2.1-src" run
 
+```sh
 gradle assemble -x clients:javadoc streams:test-utils:javadoc streams:streams-scala:scaladoc connect:mirror-client:javadoc connect:api:javadoc core:javadoc
+```
+or
+```sh
+gradle wrapper srcJar
+```
 
 ### After finishing gradle assemble
 ```sh
-Copy manually the file "kafka-streams-examples-3.2.1.jar" 
+Copy manually the file "kafka-streams-examples-3.2.1-sources.jar" 
 from "C:\src\kafka-3.2.1-src\streams\examples\build\libs" 
 to "C:\kafka_2.13-3.2.1\libs"
 ```
