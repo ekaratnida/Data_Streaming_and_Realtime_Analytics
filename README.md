@@ -4,7 +4,7 @@
 | 1     |     Introduction + review on big data  | https://drive.google.com/drive/folders/1pCP8i125ZpJEwhxtUQFqxcTLwWE1um-5?usp=sharing |
 | 2     |     Review on big data (continue) & data gathering | https://drive.google.com/drive/folders/1pCP8i125ZpJEwhxtUQFqxcTLwWE1um-5?usp=sharing |
 | 3     |     Data streaming distribution ( Kafka I ) | https://drive.google.com/drive/folders/1C-mIez_Mc0i1tjGtxDFuJSRujNnh6qoG?usp=sharing |
-| 4     |     Data streaming distribution ( Kafka II ) | https://drive.google.com/drive/folders/1rc0S6aT-jAXDY4qahIJTDDI0w4jsqTZm?usp=sharing |
+| 4     |     Data streaming distribution ( Kafka II ) | https://drive.google.com/drive/folders/1rc0S6aT-jAXDY4qahIJTDDI0w4jsqTZm?usp=sharing https://github.com/ekaratnida/kafka-connect |
 | 5     |     Processing I (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week03 |
 | 6     |     Processing II (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week04 |
 | 7     |     Processing III (Spark streaming) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week06 https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week07 |
