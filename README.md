@@ -52,3 +52,9 @@ https://docs.google.com/document/d/1rxWEqy7B7MG0ILRNUJ32semZESPlA_f4bYdsYDJTPOI/
 - https://arxiv.org/pdf/2104.00087.pdf
 
 <a href='https://ko-fi.com/E1E46KZ4T' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+# Miscellaneous
+### What is avro? 
+https://www.confluent.io/blog/avro-kafka-data/#:~:text=Avro%20is%20an%20open%20source,programming%20language%20of%20your%20choice.
+### What is Serdes?
+https://www.clairvoyant.ai/blog/apache-kafka-serde#:~:text=The%20Apache%20Kafka%20provides%20a,present%20in%20kafka%2Dcleints%20jar.
