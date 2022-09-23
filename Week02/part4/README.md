@@ -172,21 +172,16 @@ The last line defines the output stream. Here, we are sending it to our output t
 
 Install [gradle](https://gradle.org/install/) and then set the Environment path 
 
-Under "C:\src\kafka-3.2.1-src" run
+Under "C:\Users\Admin\kafka-3.2.1-src\streams\examples\" run
 
 ```sh
-gradle assemble -x clients:javadoc streams:test-utils:javadoc streams:streams-scala:scaladoc connect:mirror-client:javadoc connect:api:javadoc core:javadoc
-```
-or
-```sh
-gradle wrapper srcJar
+gradle assemble
 ```
 
 ### After finishing gradle assemble
 ```sh
-Copy manually the file "kafka-streams-examples-3.2.1-sources.jar" 
-from "C:\src\kafka-3.2.1-src\streams\examples\build\libs" 
-to "C:\kafka_2.13-3.2.1\libs"
+Copy manually the file "kafka-streams-examples-3.2.1.jar" 
+from "C:\src\kafka-3.2.1-src\streams\examples\build\libs\" to "C:\kafka_2.13-3.2.1\libs\"
 ```
 
 ### 3. Checking the result
