@@ -7,7 +7,7 @@
 | 4     |     Data streaming distribution ( Kafka II ) | https://drive.google.com/drive/folders/1rc0S6aT-jAXDY4qahIJTDDI0w4jsqTZm?usp=sharing https://github.com/ekaratnida/kafka-connect |
 | 5     |     Processing I (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week03 |
 | 6     |     Processing II (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week04 |
-| 7     |     Processing III (Spark streaming) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week06 https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week07 |
+| 7     |     Processing III (Spark streaming) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/main/Week06/Week6_spark.ipynb https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week07 |
 | -     |     No Midterm exam  | - |
 | 9     |     Online machine learning (classification) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week9 | 
 | 10    |     Online machine learning (clustering) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week12 |
