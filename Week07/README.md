@@ -22,5 +22,9 @@
         - Evaluation
         - Paper: https://jmlr.org/papers/volume19/18-251/18-251.pdf
         
+## Note
+The modeling algorithms in Spark MLlib will only accept a vectorized column as input. This is done for reasons of efficiency and scaling. The vector assembler will express the features efficiently using techniques like spark vector, which allow a larger amount of data to be handled with less memory. This helps the modeling algorithms run efficiently even on large data columns.
+https://towardsdatascience.com/your-first-apache-spark-ml-model-d2bb82b599dd
+        
 ## TBD
 https://melmeric.files.wordpress.com/2010/05/efficient-online-evaluation-of-big-data-stream-classifiers.pdf
