@@ -63,4 +63,9 @@
   
   
   ![image](https://user-images.githubusercontent.com/69342162/174016669-68d79c61-9fd1-4c94-b77b-b24983e01344.png)
+  
+  https://datamize.wordpress.com/2015/02/08/visualizing-basic-rdd-operations-through-wordcount-in-pyspark/
+  
+  ![image](https://user-images.githubusercontent.com/69342162/196129676-a4be6705-bf33-450c-a0ce-5328f87eb56d.png)
+
 
