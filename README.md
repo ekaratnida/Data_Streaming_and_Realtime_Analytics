@@ -9,8 +9,8 @@
 | 6     |     Processing II (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week04 |
 | 7     |     Processing III (Spark streaming) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/main/Week06/Week6_spark.ipynb https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/main/Week07/Week7_twitter.ipynb |
 | -     |     No Midterm exam  | - |
-| 9     |     Online machine learning (classification) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week9 | 
-| 10    |     Online machine learning (clustering) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week12 |
+| 9     |     Online machine learning (classification) | https://riverml.xyz/dev/introduction/installation/ |
+| 10    |     Online machine learning (clustering) | https://riverml.xyz/dev/introduction/installation/ |
 | 11    |     Mobile IoT I | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week05 https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/main/Week06/Mobile-sensor.pdf |
 | 12    |     Mobile IoT II | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week08 |
 | 13    |     Game I | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week10 |
