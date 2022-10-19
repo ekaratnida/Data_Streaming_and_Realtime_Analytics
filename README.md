@@ -12,10 +12,10 @@
 | 9     |     Online machine learning (classification) | https://riverml.xyz/dev/introduction/installation/ |
 | 10    |     Online machine learning (clustering) | https://riverml.xyz/dev/introduction/installation/ |
 | 11    |     Mobile IoT I | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week05 https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/main/Week06/Mobile-sensor.pdf |
-| 12    |     Mobile IoT II | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week08 |
+| 12    |     Mobile IoT II | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week08 (Quiz II) |
 | 13    |     Game I | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week10 |
 | 14    |     Game II | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week10 |
-| 15    |     Trading | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week14 |
+| 15    |     Trading | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week14 (Quiz III) |
 
 ## Install git
 
