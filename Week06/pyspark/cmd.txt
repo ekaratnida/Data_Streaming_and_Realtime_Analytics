@@ -1,0 +1,16 @@
+bin\windows\kafka-console-producer.bat ^
+    --bootstrap-server "ec2-13-229-46-113.ap-southeast-1.compute.amazonaws.com:9092" ^
+    --topic my-first-topic"
+	
+bin\windows\kafka-topics.bat ^
+    --bootstrap-server "ec2-13-229-46-113.ap-southeast-1.compute.amazonaws.com:9092" 
+    --create --replication-factor 1 
+    --partitions 1 
+    --topic my-first-topic2
+
+3. With key value
+bin\windows\kafka-console-producer.bat ^
+    --bootstrap-server "ec2-13-229-46-113.ap-southeast-1.compute.amazonaws.com:9092" 
+    --topic my-first-topic" ^
+    --property "parse.key=true" ^
+    --property "key.separator=:"
