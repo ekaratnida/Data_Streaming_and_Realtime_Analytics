@@ -9,7 +9,7 @@
 | 6     |     Processing II (Kafka streams) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week04 |
 | 7     |     Processing III (Spark streaming) | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week06/pyspark https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/blob/main/Week07/Week7_twitter.ipynb |
 | -     |     No Midterm exam  | - |
-| 9     |     Online machine learning (classification) | https://riverml.xyz/dev/introduction/installation/ |
+| 9     |     Online machine learning (classification) | https://riverml.xyz/dev/introduction/installation/ </br> Sagemaker: https://ssc.io/pdf/modin711s.pdf |
 | 10    |     Online machine learning (clustering) | https://riverml.xyz/dev/introduction/installation/ |
 | 11    |     Mobile IoT I | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week05 |
 | 12    |     Mobile IoT II | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week08 (Quiz II) |
