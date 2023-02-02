@@ -58,3 +58,6 @@ https://docs.google.com/document/d/1rxWEqy7B7MG0ILRNUJ32semZESPlA_f4bYdsYDJTPOI/
 https://www.confluent.io/blog/avro-kafka-data/#:~:text=Avro%20is%20an%20open%20source,programming%20language%20of%20your%20choice.
 ### What is Serdes?
 https://www.clairvoyant.ai/blog/apache-kafka-serde#:~:text=The%20Apache%20Kafka%20provides%20a,present%20in%20kafka%2Dcleints%20jar.
+
+## Streaming Algorithms in Machine Learning
+https://sagemaker-examples.readthedocs.io/en/latest/scientific_details_of_algorithms/streaming_median/streamingMedian.py.html
