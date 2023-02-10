@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/69342162/218063846-3dfcc1c1-9870-4503-833b-060679c6b061.png)
+
+
 # Getting started with Kafka
 
 In this workshop, you will learn how Apache Kafka works and how you can use it to build applications that react to events as they happen. We demonstrate how you can use Kafka as an event streaming platform. We cover the key concepts of Kafka and take a look at the components of the Kafka platform.
