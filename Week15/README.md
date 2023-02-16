@@ -17,6 +17,9 @@ https://www.youtube.com/watch?v=fAvrUsfMS4Y
 ## Time series
 - https://www.youtube.com/watch?v=ZshMjxblrKE
 
+## A/B Testing
+- https://towardsdatascience.com/a-b-testing-is-there-a-better-way-an-exploration-of-multi-armed-bandits-98ca927b357d
+
 ## Assets for final project
 - https://dl.acm.org/doi/pdf/10.1145/2675743.2774214?casa_token=wfNAPJN8P8cAAAAA:lQQDLtCFeeXsMcICcygDF0tfCXGGaPu25HbHS8vGu--3noL2J0cveCOOT3P1Ir7s4z1f3nK_bLrucg
 - https://arxiv.org/pdf/1708.02621.pdf
