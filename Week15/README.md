@@ -16,3 +16,10 @@ https://www.youtube.com/watch?v=fAvrUsfMS4Y
 
 ## Time series
 - https://www.youtube.com/watch?v=ZshMjxblrKE
+
+## Assets for final project
+- https://dl.acm.org/doi/pdf/10.1145/2675743.2774214?casa_token=wfNAPJN8P8cAAAAA:lQQDLtCFeeXsMcICcygDF0tfCXGGaPu25HbHS8vGu--3noL2J0cveCOOT3P1Ir7s4z1f3nK_bLrucg
+- https://arxiv.org/pdf/1708.02621.pdf
+- https://dl.acm.org/doi/pdf/10.1145/2882903.2904441?casa_token=Q_hdI79s0oAAAAAA:TfPgfRk0TaNNajXTBOvNqZUziNK5r3LlvnZ_E-sScpSJiuhgmMcjTssSqrRhyd_wC5eLYl0we4doAA
+
+
