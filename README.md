@@ -15,8 +15,7 @@
 | 12    |     Mobile IoT II | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week08 (Quiz II) |
 | 13    |     Game I | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week10 |
 | 14    |     Game II | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week10 |
-| 15    |     Trading </br> Recommendation system </br> embedding | https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week14 (Quiz III) </br> https://dl.acm.org/doi/pdf/10.1145/3132847.3133163?casa_token=hZ-azg6-eTYAAAAA:gtUUSX0FVu4QvN__SmAfL99x4lB2onSxR_S8f1qkbY8V6LY_EwSypym6pRCXKj_ZFxVRL2VLmAcdCg </br>
-https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture|
+| 15    |     - Trading </br> - Recommendation system </br> - Embedding | - https://github.com/ekaratnida/Data_Streaming_and_Realtime_Analytics/tree/main/Week14 (Quiz III) </br> - https://dl.acm.org/doi/pdf/10.1145/3132847.3133163?casa_token=hZ-azg6-eTYAAAAA:gtUUSX0FVu4QvN__SmAfL99x4lB2onSxR_S8f1qkbY8V6LY_EwSypym6pRCXKj_ZFxVRL2VLmAcdCg </br> - https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture|
 
 ## Install git
 
