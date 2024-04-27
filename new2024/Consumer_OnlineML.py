@@ -18,7 +18,7 @@ log_reg = linear_model.LogisticRegression(optimizer)
 y_true = []
 y_pred = []
 
-def processData(value):
+def processData(value,sc,mo,me):
     
     value = json.loads(value) #convert dict str to dict
     yi = value["y"]
@@ -26,24 +26,22 @@ def processData(value):
     xi = value
     
     # Scale the features
-    scaler.learn_one(xi)
-    xi_scaled = scaler.transform_one(xi)
+    sc.learn_one(xi)
+    xi_scaled = sc.transform_one(xi)
 
     # Test the current model on the new "unobserved" sample
-    yi_pred = log_reg.predict_proba_one(xi_scaled)
-    #yi_pred = log_reg.predict_one(xi_scaled)
-    #print(yi_pred)
+    yi_pred = mo.predict_proba_one(xi_scaled)
     
-    # Train the model with the new sample
-    #log_reg.learn_one(xi_scaled, yi)
+    y_true.append(yi)
+    y_pred.append(yi_pred[True])
+    print(yi)
+    print(y_pred)
+   
+    me = me.update(yi, yi_pred[True])
+    mo = mo.learn_one(xi_scaled, yi)
     
-    #print("Actual y = ", yi)
-    #print("Predicted y = ", 0 if yi_pred[True] < 0.1 else 1)
-    metric = metric.update(yi, yi_pred)
-    model = model.learn_one(xi_scaled, y)
-    print(metric)
-    
-    #evaluate.progressive_val_score(dataset, log_reg, metric, print_every=10)
+    #if len(y_true) % 5 == 0:
+    print(f'F1: {me}')
     
 
 def basic_consume_loop(c, topics):
@@ -62,7 +60,8 @@ def basic_consume_loop(c, topics):
                 elif msg.error():
                     raise KafkaException(msg.error())
             else:
-                processData(msg.value().decode())
+                recv = msg.value().decode()
+                processData(recv, scaler, log_reg, metric)
     finally:
         # Close down consumer to commit final offsets.
         c.close()
