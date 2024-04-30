@@ -2,10 +2,8 @@ from confluent_kafka import Consumer, KafkaError, KafkaException
 from sklearn import metrics
 from river import linear_model
 from river import optim
-from river import stream
 from river import preprocessing
 from river import metrics
-from river import evaluate
 import json
 
 running = True
@@ -18,8 +16,7 @@ log_reg = linear_model.LogisticRegression(optimizer)
 y_true = []
 y_pred = []
 
-def processData(value,sc,mo,me):
-    
+def processData(value,sc,mo):
     value = json.loads(value) #convert dict str to dict
     yi = value["y"]
     del value["y"]
@@ -30,18 +27,13 @@ def processData(value,sc,mo,me):
     xi_scaled = sc.transform_one(xi)
 
     # Test the current model on the new "unobserved" sample
-    yi_pred = mo.predict_proba_one(xi_scaled)
+    #yi_pred = mo.predict_proba_one(xi_scaled)
+    yi_pred = mo.predict_one(xi_scaled)
+
+    print("Actual",yi,"------- Predicted",int(yi_pred))
     
-    y_true.append(yi)
-    y_pred.append(yi_pred[True])
-    print(yi)
-    print(y_pred)
-   
-    me = me.update(yi, yi_pred[True])
     mo = mo.learn_one(xi_scaled, yi)
-    
-    #if len(y_true) % 5 == 0:
-    print(f'F1: {me}')
+
     
 
 def basic_consume_loop(c, topics):
@@ -61,13 +53,13 @@ def basic_consume_loop(c, topics):
                     raise KafkaException(msg.error())
             else:
                 recv = msg.value().decode()
-                processData(recv, scaler, log_reg, metric)
+                processData(recv, scaler, log_reg)
     finally:
         # Close down consumer to commit final offsets.
         c.close()
 
 c = Consumer({'bootstrap.servers':"44.222.204.15:29092,44.222.204.15:29093,44.222.204.15:29094",
-              'group.id':'group2',
+              'group.id':'group12',
 			  'auto.offset.reset':'earliest'})
               
-basic_consume_loop(c,['cancer'])
+basic_consume_loop(c,['ekarat'])

@@ -9,8 +9,9 @@ from river import stream
 from river import preprocessing
 from bson import json_util
 import json
+import pprint
 
-p = Producer({'bootstrap.servers':"44.222.204.15:29092,44.222.204.15:29093,44.222.204.15:29094"})
+p = Producer({'bootstrap.servers':"44.222.204.15:29092, 44.222.204.15:29093, 44.222.204.15:29094"})
 
 def acked(err, msg):
     if err is not None:
@@ -18,20 +19,17 @@ def acked(err, msg):
     else:
         print("Message produced: %s" % (msg.value().decode()))
 
-id = 1
+id = 200
 for xi, yi in stream.iter_sklearn_dataset(datasets.load_breast_cancer(), shuffle=True, seed=42):
     
-    print(type(xi))
+    pprint.pprint(xi)
     xi["y"] = str(yi)
     data = json.dumps(xi, default=json_util.default).encode('utf-8')
-    print(type(data))
-    p.produce('cancer', key = str(id), value = data, callback=acked)
+    #print(type(data))
+    p.produce('ekarat2', key = str(id), value = data, callback=acked)
     sleep(2)
     p.poll(1)
-    id = id+1
-    if id == 10:
-        break
-    
+    id = id+1    
 
 # Example of json schema
 # https://github.com/confluentinc/confluent-kafka-python/blob/master/examples/json_producer.py
