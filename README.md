@@ -61,3 +61,7 @@ https://www.clairvoyant.ai/blog/apache-kafka-serde#:~:text=The%20Apache%20Kafka%
 
 ## Streaming Algorithms in Machine Learning
 https://sagemaker-examples.readthedocs.io/en/latest/scientific_details_of_algorithms/streaming_median/streamingMedian.py.html
+
+## Use case
+1. https://www.youtube.com/watch?v=nIZ4tTlWIAc
+2. 
