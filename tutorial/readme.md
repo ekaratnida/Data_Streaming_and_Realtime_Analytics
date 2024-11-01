@@ -5,4 +5,4 @@
 ## 2. setup docker in EC2
 - https://www.youtube.com/watch?v=yfGE8MWWhTY
 
-## เอกสารที่เกี่ยวข้องใน video ดูได้ใน tutorial
+## เอกสารที่เกี่ยวข้องใน video ดูได้ใน tutorial/files directory
