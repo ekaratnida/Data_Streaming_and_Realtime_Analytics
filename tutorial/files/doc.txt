@@ -1,0 +1,4 @@
+scp -i ekarat_test1.pem docker-compose.yml ubuntu@ec2-47-128-152-76.ap-southeast-1.compute.amazonaws.com:/home/ubuntu
+
+https://docs.docker.com/engine/install/ubuntu/
+
