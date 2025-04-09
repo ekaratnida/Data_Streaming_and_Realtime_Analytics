@@ -1,0 +1,19 @@
+docker-compose up -d
+
+docker exec -it kafka2 /bin/bash
+
+kafka-topics --bootstrap-server localhost:9092 --create --topic input --partitions 2 --replication-factor 3
+
+kafka-topics --bootstrap-server localhost:9092 --create --topic output --partitions 2 --replication-factor 3
+
+# Help
+# To view msg in a topic
+kafka-console-consumer --bootstrap-server localhost:9092 --topic input --from-beginning
+# To delete and create the topic
+kafka-topics --bootstrap-server localhost:9092 --delete --topic input
+kafka-topics --bootstrap-server localhost:9092 --create --topic input --partitions 2 --replication-factor 3
+
+# Pyspark
+docker pull jupyter/pyspark-notebook
+docker run -it -p 8888:8888 -v C:\Users\Admin\realtime\spark-stuff:/home/jovyan jupyter/pyspark-notebook
+
