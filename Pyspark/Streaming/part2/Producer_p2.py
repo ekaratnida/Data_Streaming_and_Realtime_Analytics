@@ -14,10 +14,12 @@ def acked(err, msg):
     else:
         print("Message produced: %s" % (msg.value().decode()))
 
-event_time = time.time()  # or use a real event timestamp
+#event_time = time.time()  # or use a real event timestamp
+#eventTimeList = ["12:02","12:03","12:07","12:11","12:13"]
 msgList = ["cat dog", "dog dog", "owl cat", "dog", "owl"]
 
-for et, m in zip(eventTimeList, msgList):
+#for et, m in zip(eventTimeList, msgList):
+for m in msgList:
     now = datetime.now().strftime("%H:%M:%S")
     value = json.dumps({
         "event_time": now,
