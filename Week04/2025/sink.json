@@ -1,0 +1,13 @@
+{
+  "name": "quickstart-avro-mysql-sink",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "tasks.max": 1,
+    "connection.url": "jdbc:mysql://quickstart-mysql:3306/connect_test",
+    "connection.user": "root",
+    "connection.password": "confluent",
+    "topics": "movie",                                      
+    "auto.create": true,
+    "table.name.format":"movie_tb"
+  }
+}
