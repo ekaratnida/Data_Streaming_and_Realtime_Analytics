@@ -1,3 +1,4 @@
+## Exercise
 1. create a folder and insert the three files "input.txt", "mapper.py", "reducer.py" into the folder.
 
 2. Run the command below inside the folder (1)
@@ -34,3 +35,6 @@ In      1
 It’s    1
 
 Kevin   1
+
+## Homework
+1. Modify the exercise above so that it can read the Harry Potter book, and display the top 5 most frequent words (excluding stop words such as “a,” “an,” and “the”).
