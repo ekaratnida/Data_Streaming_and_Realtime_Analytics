@@ -19,11 +19,18 @@ hadoop jar /usr/hadoop-3.0.0/share/hadoop/tools/lib/hadoop-streaming-3.0.0.jar \
 5. Show the results by running the command below 
 hdfs dfs -cat /output/*
 
-E.g., the result 
+E.g., the result
+ 
 $418    1
+
 1.5     1
+
 Association     1
+
 Here’s  1
+
 In      1
+
 It’s    1
+
 Kevin   1
