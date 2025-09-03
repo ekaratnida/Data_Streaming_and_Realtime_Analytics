@@ -19,7 +19,10 @@ https://docs.google.com/document/d/1R7SqaHRGVkOy_ctLv-IdqYqNDChFF5zMPOZayR7KCaM/
 8. Upload sink.json file to the same place at 5.
 9. Goto 'mysql' of sink and run the same commands as 6. but use the select instead of insert and change the table from 'movie' to 'movie_tb'.
 
-### 2. Example of timestamp
+
+
+## Miscellaneous
+- Example of timestamp
 ```
 {
     "type" : "record",
