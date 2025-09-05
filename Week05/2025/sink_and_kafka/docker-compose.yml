@@ -185,3 +185,14 @@ services:
 
     ports:
       - "3308:3306"
+      
+  adminer:
+    image: adminer:latest
+    container_name: adminer
+    restart: unless-stopped
+    ports:
+      - "8084:8080"   # open on localhost:8084
+    environment:
+      ADMINER_DESIGN: "nette"   # optional
+
+
