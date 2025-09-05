@@ -44,3 +44,18 @@ VALUES ('Aliens', '2019-07-18T10:00:00Z', 10);
     }]
 }
 ```
+- If you want to try 'metabase' dashboard
+```
+ metabase:
+    image: metabase/metabase:latest
+    container_name: metabase
+    ports:
+      - "3000:3000"
+    environment:
+      # Metabase application DB (internal) - optional: default H2 is fine for testing.
+      # If you want PostgreSQL for Metabase internal DB, set METABASE_DB_* here.
+      MB_ENCRYPTION_SECRET_KEY: "0123456789abcdef"
+    depends_on:
+      - quickstart-mysql   # ensures MySQL is started first
+    restart: unless-stopped
+```
