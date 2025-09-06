@@ -186,9 +186,9 @@ services:
     ports:
       - "3308:3306"
       
-  adminer:
+  adminer1:
     image: adminer:latest
-    container_name: adminer
+    container_name: adminer1
     restart: unless-stopped
     ports:
       - "8084:8080"   # open on localhost:8084
