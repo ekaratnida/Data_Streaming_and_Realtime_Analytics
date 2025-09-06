@@ -1,6 +1,6 @@
 version: '3'
 services:
-  quickstart-mysql:
+  quickstart-mysql-source:
     container_name: quickstart-mysql-source
     hostname: quickstart-mysql-source
     image: mysql:5.7
@@ -16,3 +16,11 @@ services:
       - "3307:3306"
     
     #command: "bash -c 'mysql -uconfluent -pconfluent < /tmp/db_setup.sql'"
+  adminer2:
+    image: adminer:latest
+    container_name: adminer2
+    restart: unless-stopped
+    ports:
+      - "8085:8080"   # open on localhost:8085
+    environment:
+      ADMINER_DESIGN: "nette"   # optional
