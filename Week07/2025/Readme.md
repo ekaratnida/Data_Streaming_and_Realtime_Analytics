@@ -12,6 +12,7 @@ $.data[*]
 http://localhost:8000/messages
 
 # How to Flink
+```sql
 CREATE TABLE ratings (
     rating_id INT,
     title STRING,
@@ -31,3 +32,4 @@ CREATE TABLE ratings (
     'value.avro-confluent.url' = 'http://schema-registry:8081',
     'value.fields-include' = 'EXCEPT_KEY'
 );
+```
