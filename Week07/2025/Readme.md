@@ -1,15 +1,10 @@
 # How to Grafana
 ## Todo
-
-python -m uvicorn kafka_api:app --host 0.0.0.0 --port 8000
-
-http://host.docker.internal:8000/messages
-
-$.data[*]
-
-## View data
-
-http://localhost:8000/messages
+1. python kafka_api3.py
+2. python -m uvicorn kafka_api3:app --host 0.0.0.0 --port 8000
+3. http://localhost:8000/messages
+4. set url in grafana json api: http://host.docker.internal:8000/messages
+5. query: $.data[*]
 
 # How to Flink
 ```sql
