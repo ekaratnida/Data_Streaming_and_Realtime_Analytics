@@ -1,7 +1,7 @@
 # How to Grafana
 ## Todo
-1. Run "Producer_json.py"
-2. 
+1. Run "Producer_json.py".
+2. Run ksqldb command.
 ```sql
 CREATE STREAM movie_ticket_sales (title VARCHAR, sale_ts VARCHAR, ticket_total_value INT)
     WITH (KAFKA_TOPIC='movie-ticket-sales',
