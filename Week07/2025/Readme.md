@@ -1,7 +1,21 @@
 # How to Grafana
 ## Todo
-1. python kafka_api3.py
-2. python -m uvicorn kafka_api3:app --host 0.0.0.0 --port 8000
+1.
+```sql
+CREATE STREAM movie_ticket_sales (title VARCHAR, sale_ts VARCHAR, ticket_total_value INT)
+    WITH (KAFKA_TOPIC='movie-ticket-sales',
+          PARTITIONS=1,
+          VALUE_FORMAT='JSON');
+  
+CREATE TABLE movie_count WITH (VALUE_FORMAT = 'JSON') AS
+  SELECT title, COUNT(*) AS tickets_sold
+  FROM movie_ticket_sales
+  WINDOW TUMBLING (SIZE 60 SECONDS)
+  GROUP BY title
+  EMIT CHANGES;
+  ```
+1. python kafka_api.py
+2. python -m uvicorn kafka_api:app --host 0.0.0.0 --port 8000
 3. Click to view your data: http://localhost:8000/messages
 4. set url in grafana json api: http://host.docker.internal:8000/messages
 5. query: $.data[*]
