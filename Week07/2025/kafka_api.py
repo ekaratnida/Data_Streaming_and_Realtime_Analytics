@@ -7,7 +7,7 @@ app = FastAPI()
 
 # Kafka consumer configuration
 consumer = KafkaConsumer(
-    'MOVIE_COUNT2',# replace with your topic
+    'MOVIE_COUNT',# replace with your topic
     bootstrap_servers='localhost:9092',
     auto_offset_reset='earliest',
     enable_auto_commit=True,
@@ -33,3 +33,4 @@ threading.Thread(target=consume, daemon=True).start()
 @app.get("/messages")
 def get_messages():
     return {"data": messages}
+
