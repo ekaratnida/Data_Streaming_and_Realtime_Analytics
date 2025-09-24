@@ -1,6 +1,7 @@
 # How to Grafana
 ## Todo
-1.
+1. Run "Producer_json.py"
+2. 
 ```sql
 CREATE STREAM movie_ticket_sales (title VARCHAR, sale_ts VARCHAR, ticket_total_value INT)
     WITH (KAFKA_TOPIC='movie-ticket-sales',
@@ -14,11 +15,11 @@ CREATE TABLE movie_count WITH (VALUE_FORMAT = 'JSON') AS
   GROUP BY title
   EMIT CHANGES;
   ```
-1. python kafka_api.py
-2. python -m uvicorn kafka_api:app --host 0.0.0.0 --port 8000
-3. Click to view your data: http://localhost:8000/messages
-4. set url in grafana json api: http://host.docker.internal:8000/messages
-5. query: $.data[*]
+3. python kafka_api.py
+4. python -m uvicorn kafka_api:app --host 0.0.0.0 --port 8000
+5. Click to view your data: http://localhost:8000/messages
+6. set url in grafana json api: http://host.docker.internal:8000/messages
+7. query: $.data[*]
 
 # How to Flink
 ```sql
