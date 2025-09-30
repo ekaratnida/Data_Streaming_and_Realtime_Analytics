@@ -23,23 +23,39 @@ CREATE TABLE movie_count WITH (VALUE_FORMAT = 'JSON') AS
 
 # How to Flink
 ```sql
-CREATE TABLE ratings (
-    rating_id INT,
+CREATE TABLE movie_ticket_sales (
     title STRING,
-    release_year INT,
-    rating DOUBLE,
-    ts TIMESTAMP(3),
-    -- declare ts as event time attribute and use strictly ascending timestamp watermark strategy
-    WATERMARK FOR ts AS ts
+    sales_ts STRING,
+    total_ticket_value INT
 ) WITH (
     'connector' = 'kafka',
-    'topic' = 'ratings',
+    'topic' = 'movie-ticket-sales',
     'properties.bootstrap.servers' = 'broker:29092',
     'scan.startup.mode' = 'earliest-offset',
     'key.format' = 'raw',
-    'key.fields' = 'rating_id',
+    'key.fields' = 'title',
     'value.format' = 'avro-confluent',
     'value.avro-confluent.url' = 'http://schema-registry:8081',
     'value.fields-include' = 'EXCEPT_KEY'
 );
+
+
+CREATE TABLE movie_count (
+	title STRING,
+	total_sales BIGINT,
+	PRIMARY KEY (title) NOT ENFORCED
+) WITH (
+	'connector' = 'upsert-kafka',
+	'topic' = 'movie-count',
+	'properties.bootstrap.servers' = 'broker:29092',
+	'key.format' = 'json',
+	'value.format' = 'json'
+);
+
+insert into movie_count
+select
+ title,
+ count(total_ticket_value) as total_sales
+from movie_ticket_sales
+group by title;
 ```
