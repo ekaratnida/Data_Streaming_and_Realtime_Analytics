@@ -1,17 +1,7 @@
 docker-compose up -d
-
 docker exec -it kafka2 /bin/bash
-
 kafka-topics --bootstrap-server localhost:9092 --create --topic input --partitions 2 --replication-factor 3
-
 kafka-topics --bootstrap-server localhost:9092 --create --topic output --partitions 2 --replication-factor 3
-
-# Help
-# To view msg in a topic
-kafka-console-consumer --bootstrap-server localhost:9092 --topic output --from-beginning --property print.key=true --property key.separator=" : "
-# To delete and create the topic
-kafka-topics --bootstrap-server localhost:9092 --delete --topic input
-kafka-topics --bootstrap-server localhost:9092 --create --topic input --partitions 2 --replication-factor 3
 
 # Pyspark
 docker pull jupyter/pyspark-notebook
@@ -19,3 +9,10 @@ docker run -it -p 8888:8888 -v C:\Users\Admin\realtime\spark-stuff:/home/jovyan 
 
 docker run -it -p 8888:8888 -v C:\Users\AS-LAB1\realtime_2567_2\week12\pyspark:/home/jovyan jupyter/pyspark-notebook
 
+
+# Help
+# To view msg in a topic
+kafka-console-consumer --bootstrap-server localhost:9092 --topic output --from-beginning --property print.key=true --property key.separator=" : "
+# To delete and create the topic
+kafka-topics --bootstrap-server localhost:9092 --delete --topic input
+kafka-topics --bootstrap-server localhost:9092 --create --topic input --partitions 2 --replication-factor 3
