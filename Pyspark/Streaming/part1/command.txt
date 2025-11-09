@@ -1,3 +1,5 @@
+### Note: Replace the IP address in docker-compose.yaml with the new one.
+
 docker-compose up -d
 docker exec -it kafka2 /bin/bash
 kafka-topics --bootstrap-server localhost:9092 --create --topic input --partitions 2 --replication-factor 3
@@ -16,3 +18,4 @@ kafka-console-consumer --bootstrap-server localhost:9092 --topic output --from-b
 # To delete and create the topic
 kafka-topics --bootstrap-server localhost:9092 --delete --topic input
 kafka-topics --bootstrap-server localhost:9092 --create --topic input --partitions 2 --replication-factor 3
+
