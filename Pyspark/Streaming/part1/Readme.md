@@ -1,2 +1,5 @@
-1. Google sheet: https://docs.google.com/document/d/1wWrhXjK2BejARllQKFyusWir5r0PatJKKxTx3QW9z0g/edit?tab=t.0
-2. 
+## Todo
+1. Download Producer.py, docker-compose
+2. Create a new folder "spark-stuff"
+3. Download wordcount... jupyter notebook to spark-stuff folder in your com.
+ 
