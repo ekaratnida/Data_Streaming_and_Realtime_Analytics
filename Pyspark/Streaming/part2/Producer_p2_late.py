@@ -31,6 +31,7 @@ msgList = ["cat dog", "dog dog", "owl cat", "dog", "owl"]
 for i, m in enumerate(msgList):
     print(i)
     now = datetime.now().strftime("%H:%M:%S")
+    # Implement late situation when i==3
     if i == 3:
         now = datetime.now() - timedelta(seconds=20)
         now = now.strftime("%H:%M:%S")
@@ -42,4 +43,5 @@ for i, m in enumerate(msgList):
     p.produce('input', key="key", value=value, callback=acked)
     time.sleep(5) #random.randint(1,5))    
     p.poll(1)
+
     
