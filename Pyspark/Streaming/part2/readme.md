@@ -22,6 +22,8 @@ property key.separator=" : "
 
 # To delete and create the topic
 
+docker exec -it kafka2 /bin/bash
+
 kafka-topics --bootstrap-server localhost:9092 --delete --topic input
 
 kafka-topics --bootstrap-server localhost:9092 --create --topic input --partitions 2 --replication-factor 3
