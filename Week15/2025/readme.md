@@ -1,1 +1,15 @@
+### Note: Replace the IP address in docker-compose.yaml with the new one.
 
+docker-compose up -d
+
+docker exec -it kafka2 /bin/bash
+
+kafka-topics --bootstrap-server localhost:9092 --create --topic input --partitions 2 --replication-factor 3
+
+kafka-topics --bootstrap-server localhost:9092 --create --topic output --partitions 2 --replication-factor 3
+
+# Pyspark
+
+docker pull jupyter/pyspark-notebook
+
+docker run -it -p 8888:8888 -v C:\Users\AS-LAB1\realtime-2568\week14-ML\spark-stuff:/home/jovyan jupyter/pyspark-notebook
