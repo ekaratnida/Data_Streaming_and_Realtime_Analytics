@@ -1,7 +1,7 @@
 ### Note: Replace the IP address in docker-compose.yaml with the new one.
 
 docker-compose up -d
-docker exec -it kafka2 /bin/bash
+docker exec -it kafka1 /bin/bash
 kafka-topics --bootstrap-server localhost:9092 --create --topic input --partitions 2 --replication-factor 3
 kafka-topics --bootstrap-server localhost:9092 --create --topic output --partitions 2 --replication-factor 3
 
@@ -11,13 +11,16 @@ docker run -it -p 8888:8888 -v C:\Users\AS-LAB1\realtime-2568\week12-pyspark1\sp
 
 # Help
 # To view msg in a topic
+docker exec -it kafka1 /bin/bash
 kafka-console-consumer --bootstrap-server localhost:9092 --topic output --from-beginning --property print.key=true --property key.separator=" : "
 # To delete and create the topic
 kafka-topics --bootstrap-server localhost:9092 --delete --topic input
 kafka-topics --bootstrap-server localhost:9092 --create --topic input --partitions 2 --replication-factor 3
 
 # To show all existing topics
+docker exec -it kafka1 /bin/bash
 kafka-topics --bootstrap-server localhost:9092 --list
+
 
 
 
