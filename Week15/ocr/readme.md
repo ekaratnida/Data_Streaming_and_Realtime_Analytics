@@ -1,4 +1,5 @@
-## Install source.json
+## Install connector
+- docker-compose build connect
 - curl -X POST -H "Content-Type: application/json" --data @source.json http://localhost:8083/connectors
 - curl -X DELETE http://localhost:8083/connectors/png-source
 
