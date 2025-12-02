@@ -1,0 +1,23 @@
+{
+  "name": "png-source",
+  "config": {
+    "connector.class": "com.github.jcustenborder.kafka.connect.spooldir.SpoolDirBinaryFileSourceConnector",
+    "tasks.max": "5",
+    "topic": "input",
+    
+    "input.path": "/spooldir/input/",
+    "finished.path": "/spooldir/output/",
+    "error.path": "/spooldir/error/",
+    
+    "input.file.pattern": ".*\\.png$",
+    "cleanup.policy": "MOVE",
+    "halt.on.error": "false",
+    
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "key.converter.schemas.enable": "false",
+    
+    "value.converter": "org.apache.kafka.connect.converters.ByteArrayConverter",
+    "value.converter.schemas.enable": "false",
+	"file.buffer.size.bytes": 10000000
+  }
+}
