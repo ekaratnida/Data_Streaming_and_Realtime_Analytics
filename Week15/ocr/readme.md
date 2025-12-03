@@ -1,5 +1,6 @@
 ## Install connector
 - docker-compose build connect
+- docker-compose up -d
 - curl -X POST -H "Content-Type: application/json" --data @source.json http://localhost:8083/connectors
 
 ## Start pyspark
