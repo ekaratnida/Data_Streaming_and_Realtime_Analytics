@@ -1,11 +1,11 @@
 # Todo
 1. Use [https://downgit.github.io/](https://downgit.github.io/) to download the folder **2025** from this GitHub repository.  
 
-2. Run the following command inside both the **source** and **sink_and_kafka** directories:  
+2. Run the following command inside both the **source**, **sink**, and **kafka** directories:  
    ```bash
    docker compose up -d
    ```
-3. Change the IP address inside source.json to your actual IP address at runtime.
+3. Change the IP address inside source.json and sink.json to your actual IP address at runtime.
 4. Open the Control Center service by accessing port 9021.
 5. Click Connector → Add Connector → Upload source.json file → Launch.
 6. Go to the MySQL container of the source, then run:
