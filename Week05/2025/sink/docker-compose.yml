@@ -1,8 +1,8 @@
 version: '3'
 services:
   mysql-source:
-    container_name: mysql-source
-    hostname: mysql-source
+    container_name: mysql-sink
+    hostname: mysql-sink
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: confluent
@@ -14,4 +14,5 @@ services:
       
     ports:
       - "3308:3306"
+
     
