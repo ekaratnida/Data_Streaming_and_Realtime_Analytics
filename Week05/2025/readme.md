@@ -1,8 +1,6 @@
-# Lecture note
-https://docs.google.com/document/d/1R7SqaHRGVkOy_ctLv-IdqYqNDChFF5zMPOZayR7KCaM/edit?tab=t.0
-
 # Todo
 1. Use [https://downgit.github.io/](https://downgit.github.io/) to download the folder **2025** from this GitHub repository.  
+
 2. Run the following command inside both the **source** and **sink_and_kafka** directories:  
    ```bash
    docker compose up -d
