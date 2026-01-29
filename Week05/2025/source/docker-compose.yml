@@ -1,8 +1,8 @@
 version: '3'
 services:
-  quickstart-mysql-source:
-    container_name: quickstart-mysql-source
-    hostname: quickstart-mysql-source
+  mysql-source:
+    container_name: mysql-source
+    hostname: mysql-source
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: confluent
@@ -11,16 +11,7 @@ services:
       MYSQL_DATABASE: connect_test
     volumes:
       - ./mysql/db_setup.sql:/docker-entrypoint-initdb.d/db_setup.sql
-
+      
     ports:
       - "3307:3306"
     
-    #command: "bash -c 'mysql -uconfluent -pconfluent < /tmp/db_setup.sql'"
-  adminer2:
-    image: adminer:latest
-    container_name: adminer2
-    restart: unless-stopped
-    ports:
-      - "8085:8080"   # open on localhost:8085
-    environment:
-      ADMINER_DESIGN: "nette"   # optional
