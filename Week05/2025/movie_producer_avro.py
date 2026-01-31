@@ -13,8 +13,7 @@ schema_registry_client = SchemaRegistryClient(sr_conf)
 schema_str = """
 {
     "type": "record",
-    "name": "TicketSale",
-    "namespace": "test",
+    "name": "movie",
     "fields": [
         {"name": "title", "type": "string"},
         {"name": "sale_ts", "type": "string"},
