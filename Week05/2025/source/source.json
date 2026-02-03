@@ -13,6 +13,7 @@
     "value.converter.schema.registry.url": "http://schema-registry:8081",
     "value.converter.schemas.enable": "true",
     "mode": "bulk",
+    "poll.interval.ms": 1000,
     "topic.prefix": ""
   }
 }
