@@ -6,7 +6,7 @@ from datetime import datetime
 import time
 
 # 1. Setup Schema Registry Client explicitly
-sr_conf = {'url': 'http://localhost:8081'}
+sr_conf = {'url': 'http://172.11.251.242:8081'}
 schema_registry_client = SchemaRegistryClient(sr_conf)
 
 # 2. Define Schema
@@ -27,7 +27,7 @@ avro_serializer = AvroSerializer(schema_registry_client, schema_str)
 
 # 4. Define Producer with Serializer
 producer_conf = {
-    'bootstrap.servers': 'localhost:9092',
+    'bootstrap.servers': '172.11.251.242:8097,172.11.251.242:8098,172.11.251.242:8099',
     'value.serializer': avro_serializer
 }
 producer = SerializingProducer(producer_conf)
