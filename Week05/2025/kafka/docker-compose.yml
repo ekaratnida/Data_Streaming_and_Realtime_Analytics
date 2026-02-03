@@ -116,5 +116,5 @@ services:
       CONNECT_PLUGIN_PATH: "/usr/share/java,/usr/share/confluent-hub-components"
       CONNECT_ZOOKEEPER_CONNECT: 'zookeeper:2181'
       CONNECT_OFFSET_FLUSH_INTERVAL_MS: 10000
-	volumes:
+  volumes:
       - ./drivers/mysql-connector-java-5.1.37-bin.jar:/usr/share/java/kafka/mysql-connector-java-5.1.37-bin.jar
