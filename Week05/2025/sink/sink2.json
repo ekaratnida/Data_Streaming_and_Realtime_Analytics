@@ -13,7 +13,7 @@
     "value.converter.schema.registry.url": "http://schema-registry:8081",
     "value.converter.schemas.enable": "true",
     "insert.mode":"upsert",
-    "pk.mode":"record_key",
+    "pk.mode":"record_value",
     "pk.fields":"id",
     "errors.tolerance": "all",
     "errors.log.enable": "true",
