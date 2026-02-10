@@ -1,0 +1,19 @@
+{
+  "name": "source-connector",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+    "tasks.max": "1",
+    "topics": "movie2",
+    "connection.url": "jdbc:mysql://172.11.251.242:3307/connect_test?useSSL=false",
+    "connection.user": "confluent",
+    "connection.password": "confluent",
+    "table.whitelist" : "movie2",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "io.confluent.connect.avro.AvroConverter",
+    "value.converter.schema.registry.url": "http://schema-registry:8081",
+    "value.converter.schemas.enable": "true",
+    "mode": "incrementing",
+    "incrementing.column.name": "id",
+    "topic.prefix": ""
+  }
+}
