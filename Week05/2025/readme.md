@@ -43,3 +43,20 @@ VALUES ('Aliens', '2019-07-18T10:00:00Z', 10);
 }
 ```
 <img width="964" height="624" alt="image" src="https://github.com/user-attachments/assets/23dd6cec-81fa-49b9-ab0a-043437005145" />
+
+
+CREATE TABLE `connect_test`.`movie2` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(100) NOT NULL,
+  `sale_ts` DATETIME NOT NULL,
+  `ticket_total_value` INT NOT NULL,
+  PRIMARY KEY (`id`));
+
+
+CREATE TABLE `connect_test`.`movie2_tb` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(100) NOT NULL,
+  `sale_ts` DATETIME NOT NULL,
+  `ticket_total_value` INT NOT NULL,
+  PRIMARY KEY (`id`));
+
