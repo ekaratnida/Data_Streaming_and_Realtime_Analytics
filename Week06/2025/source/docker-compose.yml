@@ -1,0 +1,17 @@
+version: '3'
+services:
+  mysql-source:
+    container_name: mysql-source
+    hostname: mysql-source
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: confluent
+      MYSQL_USER: confluent
+      MYSQL_PASSWORD: confluent
+      MYSQL_DATABASE: connect_test
+    volumes:
+      - ./mysql/db_setup.sql:/docker-entrypoint-initdb.d/db_setup.sql
+      
+    ports:
+      - "3307:3306"
+    
