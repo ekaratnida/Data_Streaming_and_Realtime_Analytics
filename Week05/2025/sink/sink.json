@@ -4,7 +4,7 @@
     "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
     "tasks.max": "1",
     "topics": "movie",
-    "connection.url": "jdbc:mysql://your ip address:3308/connect_test?useSSL=false",
+    "connection.url": "jdbc:mysql://172.17.31.214:3308/connect_test?useSSL=false",
     "connection.user": "c",
     "connection.password": "c",
     "table.name.format": "movie_tb",

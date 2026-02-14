@@ -4,7 +4,7 @@
     "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
     "tasks.max": "1",
     "topics": "movie",
-    "connection.url": "jdbc:mysql://your ip address:3307/connect_test?useSSL=false",
+    "connection.url": "jdbc:mysql://172.17.31.214:3307/connect_test?useSSL=false",
     "connection.user": "confluent",
     "connection.password": "confluent",
     "table.whitelist" : "movie",
