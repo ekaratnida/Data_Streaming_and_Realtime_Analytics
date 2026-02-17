@@ -5,9 +5,9 @@ services:
     hostname: mysql-source
     image: mysql:5.7
     environment:
-      MYSQL_ROOT_PASSWORD: confluent
-      MYSQL_USER: confluent
-      MYSQL_PASSWORD: confluent
+      MYSQL_ROOT_PASSWORD: c
+      MYSQL_USER: c
+      MYSQL_PASSWORD: c
       MYSQL_DATABASE: connect_test
     volumes:
       - ./mysql/db_setup.sql:/docker-entrypoint-initdb.d/db_setup.sql
