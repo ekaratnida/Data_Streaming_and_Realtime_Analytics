@@ -1,11 +1,22 @@
-Use week4 lab (recommend to use Nida by AIS)
+Setup lab
 1. Start Kafka docker
-2. Start sink docker (MySQL)
-3. Start source docker (MySQL)
+2. Start sink2 docker (MySQL)
+3. Start source-timestamp-incrementing docker (MySQL)
 4. Setup sink connection config (set IP address)
 5. Setup source connection config (set IP addr, bulk mode)
 6. Insert a new data into source MySQL (workbench).
 If works, you will see data streaming in sink table.
+
+insert into connect_test.movie (title,sale_ts,ticket_total_value)
+values ('cat5', now(),15);
+
+SELECT * FROM connect_test.movie;
+
+UPDATE connect_test.movie
+SET title = 'cat2', sale_ts = now()
+WHERE id = 1;
+
+***********************************************************************************************************
 
 Part 2 (Incrementing mode)
 2.1 Create a new table, named movie2, in source database
