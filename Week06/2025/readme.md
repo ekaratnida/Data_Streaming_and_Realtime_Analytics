@@ -60,3 +60,4 @@ CREATE TABLE `connect_test`.`movie2_tb` (
   `ticket_total_value` INT NOT NULL,
   PRIMARY KEY (`id`));
 
+create an automated script that first runs docker-compose in kafka, and then the docer-compose inside the sink folder, and then the docker-compose inside the source folder. Later, the automated script includes the curl for sink2.json, then the curl for source-timestamp-incrementing.json finally.
