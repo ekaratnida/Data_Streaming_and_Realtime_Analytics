@@ -64,3 +64,6 @@ CREATE TABLE `connect_test`.`movie2_tb` (
  create an automated script (window bat file) that first runs docker-compose in kafka, and then the docer-compose
    inside the sink folder, and then the docker-compose inside the source folder. Later, the automated script includes
    the curl for sink2.json, then the curl for source-timestamp-incrementing.json finally.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5f0ee650-d92f-435d-872a-82045172bf40" />
+
