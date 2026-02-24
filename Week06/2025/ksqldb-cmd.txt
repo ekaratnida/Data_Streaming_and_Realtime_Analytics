@@ -1,0 +1,14 @@
+#Create a stream
+CREATE STREAM m_stream (id INT, title VARCHAR, sale_ts TIMESTAMP, ticket_total_value INT)
+  WITH (kafka_topic='movie', value_format='avro', partitions=1);
+
+
+#Materialized views of stream
+CREATE STREAM cleaned3 AS
+   SELECT
+     id,
+     TRIM(title) AS title,
+     sale_ts,
+     ticket_total_value
+   FROM m_stream
+   EMIT CHANGES;
