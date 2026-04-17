@@ -1,7 +1,6 @@
 ## Todo
-1. Download Producer.py and docker-compose.
-2. Create a new folder "spark-stuff" in your local computer.
-3. Download all files from "spark-stuff" folder in Github to your "spark-stuff" folder in your local computer.
-4. Run each command in command.txt.
+1. Create a new local folder "Week11".
+2. Download all files and folder from this Github to Week11 folder.
+3. Execute each command from line 1 to 10 in the command.txt file.
    
  
