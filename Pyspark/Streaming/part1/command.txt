@@ -9,7 +9,10 @@ kafka-topics --bootstrap-server localhost:9092 --create --topic output --partiti
 docker pull jupyter/pyspark-notebook
 docker run -it -p 8888:8888 -v C:\Users\AS-LAB1\realtime-2568\week12-pyspark1\spark-stuff:/home/jovyan jupyter/pyspark-notebook
 
-# Help
+
+
+
+# Help #########################################################################################################################
 # To view msg in a topic
 docker exec -it kafka1 /bin/bash
 kafka-console-consumer --bootstrap-server localhost:9092 --topic output --from-beginning --property print.key=true --property key.separator=" : "
