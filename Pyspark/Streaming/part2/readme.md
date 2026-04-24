@@ -1,4 +1,4 @@
-### Note: Replace the IP address in docker-compose.yaml with the new one.
+### Note: Replace the IP address in docker-compose.yaml with the current one.
 
 docker-compose up -d
 
