@@ -14,6 +14,25 @@ docker pull jupyter/pyspark-notebook
 
 docker run -it -p 8888:8888 -v C:\Users\AS-LAB1\realtime-2568\week12-pyspark1\spark-stuff:/home/jovyan jupyter/pyspark-notebook
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![alt text](image.png)
+
 # Help
 # To view msg in a topic
 
