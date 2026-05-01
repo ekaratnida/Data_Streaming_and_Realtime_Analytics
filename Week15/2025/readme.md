@@ -1,3 +1,9 @@
+Todo
+
+1. Traditional ML
+2. OCR
+3. Online ML
+
 ### Note: Replace the IP address in docker-compose.yaml with the new one.
 
 docker-compose up -d
