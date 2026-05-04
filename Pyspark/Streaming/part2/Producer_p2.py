@@ -26,6 +26,7 @@ for m in msgList:
         "message": m
     })
     p.produce('input', key="key", value=value, callback=acked)
-    time.sleep(3) #random.randint(1,5))    
     p.poll(1)
+    time.sleep(3) #random.randint(1,5))    
+    
     
