@@ -1,0 +1,13 @@
+{
+  "shell_port": 36911,
+  "iopub_port": 34687,
+  "stdin_port": 33671,
+  "control_port": 40333,
+  "hb_port": 42831,
+  "ip": "127.0.0.1",
+  "key": "d04fe4cb-0bc9ccb0c7f78587bf0cc45b",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/jovyan/wordcount_pyspark_streaming_p3_ML.ipynb"
+}

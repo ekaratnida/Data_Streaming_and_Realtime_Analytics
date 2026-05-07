@@ -5,7 +5,7 @@
 from confluent_kafka import Producer
 import time
 import random
-p = Producer({'bootstrap.servers':'10.10.83.206:8097'})
+p = Producer({'bootstrap.servers':'192.168.1.124:8097'})
 
 def acked(err, msg):
     if err is not None:
@@ -13,10 +13,10 @@ def acked(err, msg):
     else:
         print("Message produced: %s" % (msg.value().decode()))
 
-msgList = ["My cat is good.", "My dog is bad.", "My dog is an animal."]
+msgList = ["My cat is good.", "My dog is bad.", "My dog is an animal.", "Bangkok is beautiful city."]
 
 for m in msgList:
     p.produce('input', key="key", value=m, callback=acked)
-    time.sleep(5)   
     p.poll(1)
+    time.sleep(5)   
     
