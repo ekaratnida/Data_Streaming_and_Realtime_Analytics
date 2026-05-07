@@ -1,4 +1,3 @@
-#install 
 # pip install confluent_kafka
 
 # Producer
