@@ -4,9 +4,9 @@ services:
     container_name: zookeeper
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
-  kafka1:
+  broker1:
     image: confluentinc/cp-kafka:7.2.1
-    container_name: kafka1
+    container_name: broker1
     ports:
       - "8097:8097"
     depends_on:
@@ -15,11 +15,11 @@ services:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: EXTERNAL:PLAINTEXT,INTERNAL:PLAINTEXT
-      KAFKA_ADVERTISED_LISTENERS: EXTERNAL://192.168.1.124:8097,INTERNAL://kafka1:9092
+      KAFKA_ADVERTISED_LISTENERS: EXTERNAL://192.168.1.153:8097,INTERNAL://broker1:9092
       KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
-  kafka2:
+  broker2:
     image: confluentinc/cp-kafka:7.2.1
-    container_name: kafka2
+    container_name: broker2
     ports:
       - "8098:8098"
     depends_on:
@@ -28,11 +28,11 @@ services:
       KAFKA_BROKER_ID: 2
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: EXTERNAL:PLAINTEXT,INTERNAL:PLAINTEXT
-      KAFKA_ADVERTISED_LISTENERS: EXTERNAL://192.168.1.124:8098,INTERNAL://kafka2:9092
+      KAFKA_ADVERTISED_LISTENERS: EXTERNAL://192.168.1.153:8098,INTERNAL://broker2:9092
       KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
-  kafka3:
+  broker3:
     image: confluentinc/cp-kafka:7.2.1
-    container_name: kafka3
+    container_name: broker3
     ports:
       - "8099:8099"
     depends_on:
@@ -41,7 +41,7 @@ services:
       KAFKA_BROKER_ID: 3
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: EXTERNAL:PLAINTEXT,INTERNAL:PLAINTEXT
-      KAFKA_ADVERTISED_LISTENERS: EXTERNAL://192.168.1.124:8099,INTERNAL://kafka3:9092
+      KAFKA_ADVERTISED_LISTENERS: EXTERNAL://192.168.1.153:8099,INTERNAL://broker3:9092
       KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
       
   kafka-ui:
@@ -50,34 +50,34 @@ services:
     ports:
       - 8889:8080
     depends_on:
-      - kafka1
-      - kafka2
-      - kafka3 
+      - broker1
+      - broker2
+      - broker3 
       - schema-registry
       - kafka-connect-avro
     environment:
       KAFKA_CLUSTERS_0_NAME: local
-      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka1:9092
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: broker1:9092
       KAFKA_CLUSTERS_0_METRICS_PORT: 9997
       KAFKA_CLUSTERS_0_SCHEMAREGISTRY: http://schema-registry:8081
       KAFKA_CLUSTERS_0_KAFKACONNECT_0_NAME: first
       KAFKA_CLUSTERS_0_KAFKACONNECT_0_ADDRESS: http://kafka-connect-avro:8083
       DYNAMIC_CONFIG_ENABLED: 'true'
-      #KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: PLAINTEXT://kafka1:9092,PLAINTEXT_HOST://localhost:9092
+      #KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: PLAINTEXT://broker1:9092,PLAINTEXT_HOST://localhost:9092
 
   schema-registry:
     image: confluentinc/cp-schema-registry:7.5.0
     hostname: schema-registry
     container_name: schema-registry
     depends_on:
-      - kafka1
-      - kafka2
-      - kafka3 
+      - broker1
+      - broker2
+      - broker3 
     ports:
       - "8081:8081"
     environment:
       SCHEMA_REGISTRY_HOST_NAME: schema-registry
-      SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: 'kafka1:9092,kafka2:9092,kafka3:9092'
+      SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: 'broker1:9092,broker2:9092,broker3:9092'
       SCHEMA_REGISTRY_LISTENERS: http://0.0.0.0:8081
 
   kafka-connect-avro:
@@ -89,14 +89,14 @@ services:
     hostname: kafka-connect-avro
     depends_on:
       - zookeeper
-      - kafka1
-      - kafka2
-      - kafka3
+      - broker1
+      - broker2
+      - broker3
       - schema-registry
     ports:
       - "8083:8083"
     environment:
-      CONNECT_BOOTSTRAP_SERVERS: 'kafka1:9092,kafka2:9092,kafka3:9092'
+      CONNECT_BOOTSTRAP_SERVERS: 'broker1:9092,broker2:9092,broker3:9092'
       CONNECT_REST_PORT: 8083
       CONNECT_GROUP_ID: quickstart-avro
       CONNECT_CONFIG_STORAGE_TOPIC: quickstart-avro-config

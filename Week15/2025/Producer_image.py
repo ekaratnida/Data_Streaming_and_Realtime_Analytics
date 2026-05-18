@@ -4,7 +4,7 @@
 from confluent_kafka import Producer
 import time
 import random
-producer = Producer({'bootstrap.servers':'192.168.1.124:8097'})
+producer = Producer({'bootstrap.servers':'192.168.1.153:8097'})
 
 def acked(err, msg):
     if err is not None:
