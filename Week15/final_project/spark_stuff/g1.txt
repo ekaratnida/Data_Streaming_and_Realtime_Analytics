@@ -1,0 +1,21 @@
+PLACE FACE UP ON DASH
+CITY OF PALO ALTO\n
+NOT VALID FOR\n
+ONSTREET PARKING
+
+Expiration Date/Time
+11:59 PM
+AUG 19, 2024
+
+Purchase Date/Time: 01:34pm Aug 19, 2024
+Total Due: $15.00
+Total Paid: $15.00
+Ticket #: 00005883
+S/N #: 520117260957
+Setting: Permit Machines
+Mach Name: Civic Center
+Rate: Daily Parking
+Pmt Type: CC (Swipe)
+#*** -1224, Visa
+DISPLAY FACE UP ON DASH
+PERMIT EXPIRES\nAT MIDNIGHT

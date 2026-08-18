@@ -14,7 +14,7 @@ def acked(err, msg):
         #print("Message produced: %s" % (msg.value()))
 
 topic_name = 'input'
-image_path = 'receipt1.png'
+image_path = 'receipt3.png'
 
 # Read the PNG file in 'rb' (read binary) mode
 with open(image_path, 'rb') as f:

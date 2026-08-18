@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "course": "<expected course name>",
+    "semester": "<expected semester>",
+    "student_info": {
+      "name": "<expected name>",
+      "year": "<expected year>",
+      "registration_number": "<expected reg #>",
+      "group": "<expected group>"
+    },
+    "assessment_time": "<expected time>"
+  },
+  "questions": [
+    {
+      "question": "<expected question 1>"
+    },
+    {
+      "question": "<expected question 2>"
+    }
+  ]
+}

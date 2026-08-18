@@ -1,15 +1,20 @@
+#pip install clickhouse-connect
 import streamlit as st
 import clickhouse_connect
 
 st.title("Hello")
 
-client = clickhouse_connect.get_client(
-    host='d067qdw50x.ap-southeast-1.aws.clickhouse.cloud',
-    user='default',
-    password='4Fl8b.j~u9II4',
-    secure=True
-)
+@st.cache_resource
+def init():
+    client = clickhouse_connect.get_client(
+        host='',
+        user='default',
+        password='',
+        secure=True
+    )
+    return client
 
+c = init()
 #st.info(client.command("show databases;"))
 
 #st.info("Result:", client.command("SELECT count() FROM default.trips"))
@@ -19,15 +24,15 @@ client = clickhouse_connect.get_client(
 #data = [row1, row2]
 #client.insert('new_table', data, column_names=['key', 'value', 'metric'])
 
-sv = st.slider("limit",1,100,50)
+#sv = st.slider("limit",1,100,50)
 
-result1 = client.query(f'SELECT * FROM trips limit {sv}')
+#result1 = client.query(f'SELECT * FROM trips limit {sv}')
 
-@st.cache_data
-def func():
-    st.dataframe(result1.result_rows)
+#@st.cache_data
+#def func():
+#    st.dataframe(result1.result_rows)
 
-result2 = client.query('''SELECT
+result2 = c.query('''SELECT
                                 pickup_ntaname,
                                 toHour(pickup_datetime) as pickup_hour,
                                 SUM(1) AS pickups
@@ -35,7 +40,6 @@ result2 = client.query('''SELECT
                             WHERE pickup_ntaname != ''
                             GROUP BY pickup_ntaname, pickup_hour
                             ORDER BY pickup_ntaname, pickup_hour
-                            limit 10 ''')
+                            ''')
 
-#st.info(len(result2.result_rows))
-st.line_chart(result2.result_rows)
+st.dataframe(result2.result_rows)
