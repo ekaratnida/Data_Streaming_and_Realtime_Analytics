@@ -2,6 +2,7 @@
 Start docker compose
 
 ## Set 1
+pip install confluent_kafka pymongo authlib fastavro
 run producer.py 
 
 run consumer.py
