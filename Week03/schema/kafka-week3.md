@@ -4,13 +4,39 @@
 
 เป็นระบบเกี่ยวกับการให้ rating movie โดยมีข้อกำหนดดังนี้
 ### 1. Kafka มีทั้งหมด 3 brokers, 1 zookeeper, schema register, and kafka ui
-- show docker container screen
+- Show the captured screen of the Docker container
 
 ### 2. มี 1 topic ชื่อ movie โดยแบ่งเป็น 4 partitions และ 3 replication factors
-- show kafka dashboard screen (schema register)
+- Show the captured screen of the Kafka dashboard
 
-### 3. Test the system using 'producer_avro.py' and 'consumer_avro.py'
-- show the captured screen results of producer and consumer
-### 4. Modify the schema v1 to v2 by deleting rating field
-### 5. Test the system running 'producer_avro2.py', 'consumer_avro.py' and 'consumer_avro2.py'
-- show the captured screen results of producer and two consumers.
+### 3. สร้าง Schema v.1 โดยใช้ Kafka dashboard และให้ตั้งชื่อ subject ว่าอะไร เพื่อที่จะให้สอดคล้องกับ topic movie ในข้อ 2.
+```Json
+{
+  "namespace": "example.avro",
+  "type": "record",
+  "name": "Movie",
+  "fields": [
+    {"name": "movieId", "type": "int"},
+    {"name": "title", "type": "string"},
+    {"name": "genres", "type": "string"},
+    {"name": "rating", "type": "double"}
+  ]
+}
+```
+- Show the captured screen of the Kafka dashboard
+
+### 4. Modify และ run 'producer_avro2.py' เพื่อให้ส่งข้อมูลไป Topic 'movie' ด้วย Schema v.1
+- Show the captured screen of the Kafka dashboard
+
+### 5. Modify และ run 'consumer_avro2.py' เพื่อให้รับข้อมูลจาก Topic 'movie' ด้วย Schema v.1
+- Show the captured screen of your terminal
+
+### 6. ให้ดัดแปลง Schema v.1 ไปเป็น v.2 โดยให้ลบ field 'rating' ออก และใช้ Backward compat mode
+- Show the captured screen of the Kafka dashboard
+
+### 7. Modify และเปลี่ยนชื่อจาก 'consumer_avro2.py' เป็น 'consumer_avro3.py' และ run เพื่อให้รับข้อมูลจาก Topic 'movie' ด้วย Schema v.2
+- Show the captured screen of your terminal
+
+### 8. Run 'consumer_avro2.py' เพื่อให้รับข้อมูลจาก Topic 'movie' ด้วย Schema v.1 และสังเกตผลลัพธ์
+- Show the captured screen of your terminal
+
