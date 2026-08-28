@@ -40,3 +40,6 @@
 ### 8. Run 'consumer_avro2.py' เพื่อให้รับข้อมูลจาก Topic 'movie' ด้วย Schema v.1 และสังเกตผลลัพธ์
 - Show the captured screen of your terminal
 
+### 9. สร้าง scenario เพื่อทดสอบ Forward Compat Mode
+- Show your results
+
