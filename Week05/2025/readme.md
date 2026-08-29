@@ -7,7 +7,7 @@
    ```
 3. Change the IP address inside source_bulk.json and sink.json to your actual IP address at runtime.
 4. Open the Kafka UI.
-5. Upload source_bulk.json file → Launch.
+5. Upload source_bulk.json file → to Kafka connect panel in Kafka dashboard and Launch.
 6. Go to the MySQL container of the source, then run:
 ```sql
 mysql -uconfluent -pconfluent
