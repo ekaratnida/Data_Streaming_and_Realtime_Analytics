@@ -1,7 +1,7 @@
 # Todo
 1. Use [https://downgit.github.io/](https://downgit.github.io/) to download the folder **2025** from this GitHub repository.  
 
-2. Run the following command inside both the **source**, **sink**, and **kafka** directories:  
+2. Run the following command inside (1) the **source**, (2) **sink**, and (3) **kafka** directories (Run 3 times):  
    ```bash
    docker compose up -d
    ```
