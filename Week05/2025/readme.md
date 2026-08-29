@@ -1,4 +1,5 @@
 # Todo
+
 1. Use [https://downgit.github.io/](https://downgit.github.io/) to download the folder **2025** from this GitHub repository.  
 
 2. Run the following command inside (1) the **source**, (2) **sink**, and (3) **kafka** directories (Run 3 times):  
@@ -53,42 +54,11 @@ SELECT * from movie_tb;
 
 
 ## Miscellaneous
-- Example of timestamp
-```
-{
-    "type" : "record",
-    "name" : "schema",
-    "fields" : [{
-        "name" : "entryDate",
-        "type" : ["null", {
-            "type" : `**"string"**`,
-            "logicalType" : "timestamp-micros"
-        }],
-        "default" : null
-    }]
-}
-```
-<img width="964" height="624" alt="image" src="https://github.com/user-attachments/assets/23dd6cec-81fa-49b9-ab0a-043437005145" />
+<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/23dd6cec-81fa-49b9-ab0a-043437005145" />
 
-
-CREATE TABLE `connect_test`.`movie2` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `title` VARCHAR(100) NOT NULL,
-  `sale_ts` DATETIME NOT NULL,
-  `ticket_total_value` INT NOT NULL,
-  PRIMARY KEY (`id`));
-
-
-CREATE TABLE `connect_test`.`movie2_tb` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `title` VARCHAR(100) NOT NULL,
-  `sale_ts` DATETIME NOT NULL,
-  `ticket_total_value` INT NOT NULL,
-  PRIMARY KEY (`id`));
-
+## Use AI to create an Automated Script for multiple tasks.
 Prompt:
 
-create an automated script that first runs docker-compose in kafka, and then the docer-compose inside the
-  sink folder, and then the docker-compose inside the source folder. Later, the automated script includes the
-  curl for sink2.json, then the curl for  source-timestamp-incrementing.json finally.
+create an automated script that first runs docker-compose in kafka, and then the docer-compose inside the 
+sink folder, and then the docker-compose inside the source folder.
   
