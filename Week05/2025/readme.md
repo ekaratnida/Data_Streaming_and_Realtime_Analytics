@@ -25,7 +25,7 @@ INSERT INTO movie (title, sale_ts, ticket_total_value)
 VALUES ('Aliens', '2019-07-18 10:00:00', 10);
 ```
 
-7. In Kafka UI, You should see the movie topic updating every 5 seconds (because of the “bulk” mode).
+7. In Kafka UI, You should see the movie topic updating every 5 seconds (because of the “bulk” mode). Also observe Schema Registry.
 
 8. Insert a new data and observe the result
 ```sql
@@ -34,6 +34,7 @@ VALUES ('Cat', '2019-07-18 11:00:00', 20);
 ```
 
 9. Use the information from sink.json to create a new connector and then submit as shown in the image below.
+<img width="1098" height="718" alt="image" src="https://github.com/user-attachments/assets/07c18ecb-f962-43d7-b578-3514585fe9c0" />
 
 10. Go to Sink container, click mysql-sink, click Exec, then paste the mysql command below inside the Exec:
 ```sql
@@ -43,7 +44,7 @@ use connect_test;
 show tables;
 SELECT * from movie_tb;
 ```
-10. Observe the results in movie_tb.
+11. Observe the results in movie_tb.
 
 # Exercise
 1. Use 'incrementing' mode instead of 'bulk' mode. (select one column (as number data type)
