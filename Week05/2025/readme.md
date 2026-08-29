@@ -5,9 +5,9 @@
    ```bash
    docker compose up -d
    ```
-3. Change the IP address inside source.json and sink.json to your actual IP address at runtime.
+3. Change the IP address inside source_bulk.json and sink.json to your actual IP address at runtime.
 4. Open the Kafka UI.
-5. Upload source.json file → Launch.
+5. Upload source_bulk.json file → Launch.
 6. Go to the MySQL container of the source, then run:
 ```sql
 mysql -uconfluent -pconfluent
@@ -22,9 +22,9 @@ VALUES ('Aliens', '2019-07-18T10:00:00Z', 10);
 9. Go to the MySQL container of the sink and run the same commands as in Step 6, but use SELECT instead of INSERT, and change the table name from movie to movie_tb.
 
 # Exercise
-1. Use 'incrementing' mode instead of 'bulk' mode. (should one column (number data type)
-2. Use 'timestamp' mode instead of bulk mode. (should one column (timestamp type)
-3. Use 'timestamp+incrementing' mode instead of bulk mode. (should two columns (number and timestamp)
+1. Use 'incrementing' mode instead of 'bulk' mode. (select one column (as number data type)
+2. Use 'timestamp' mode instead of bulk mode. (select one column (as timestamp type)
+3. Use 'timestamp+incrementing' mode instead of bulk mode. (select two columns (as number and timestamp type)
 
 ## Miscellaneous
 - Example of timestamp
