@@ -5,23 +5,39 @@
    ```bash
    docker compose up -d
    ```
-3. Change the IP address inside the source_bulk.json and sink.json file to your current IP address.
-4. Open the Kafka UI.
-5. Upload source_bulk.json to kafka connect panel in Kafka dashboard, and Launch the connector.
-6. Go to the MySQL container of the source part, and run mysql command as:
+
+3. Change the IP address inside the source_bulk.json and sink.json to your current IP address.
+
+4. Open the Kafka UI -> Kafka connect -> Create connector.
+
+5. Use the information from source_bulk.json to create a new connector and then submit as shown in the image below.
+   <img width="1029" height="722" alt="image" src="https://github.com/user-attachments/assets/aa90757d-d091-4f7c-bdd9-beac2a81d64f" />
+   5.1 if it works, you can see the running created connector.
+   <img width="1895" height="371" alt="image" src="https://github.com/user-attachments/assets/fa899048-ffed-4435-9759-7f2a55170b94" />
+
+6. Go to Source container, click mysql-source, click Exec, then paste the mysql command below inside the Exec:
 ```sql
 mysql -uconfluent -pconfluent
 show databases;
 use connect_test;
 show tables;
 INSERT INTO movie (title, sale_ts, ticket_total_value) 
-VALUES ('Aliens', '2019-07-18T10:00:00Z', 10);
+VALUES ('Aliens', '2019-07-18 10:00:00', 10);
 ```
+
 7. In Kafka UI, You should see the movie topic updating every 5 seconds (because of the “bulk” mode).
-8. Upload the sink.json file to the same location as mentioned in Step 5.
-9. Go to the MySQL container of the sink part and run mysql command as:
+
+8. Insert a new data and observe the result
 ```sql
-mysql -uconfluent -pconfluent
+INSERT INTO movie (title, sale_ts, ticket_total_value) 
+VALUES ('Cat', '2019-07-18 11:00:00', 20);
+```
+
+9. Use the information from sink.json to create a new connector and then submit as shown in the image below.
+
+10. Go to Sink container, click mysql-sink, click Exec, then paste the mysql command below inside the Exec:
+```sql
+mysql -uc -pc
 show databases;
 use connect_test;
 show tables;
