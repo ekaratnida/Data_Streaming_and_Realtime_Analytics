@@ -5,10 +5,10 @@
    ```bash
    docker compose up -d
    ```
-3. Change the IP address inside source_bulk.json and sink.json to your actual IP address at runtime.
+3. Change the IP address inside the source_bulk.json and sink.json file to your current IP address.
 4. Open the Kafka UI.
-5. Upload source_bulk.json file → to Kafka connect panel in Kafka dashboard and Launch.
-6. Go to the MySQL container of the source, then run:
+5. Upload source_bulk.json to kafka connect panel in Kafka dashboard, and Launch the connector.
+6. Go to the MySQL container of the source part, and run mysql command as:
 ```sql
 mysql -uconfluent -pconfluent
 show databases;
@@ -17,14 +17,23 @@ show tables;
 INSERT INTO movie (title, sale_ts, ticket_total_value) 
 VALUES ('Aliens', '2019-07-18T10:00:00Z', 10);
 ```
-7. In Kafka UI, You should see the movie topic updating every 5 seconds (because of “bulk” mode).
-8. Upload the sink.json file to the same location as in Step 5.
-9. Go to the MySQL container of the sink and run the same commands as in Step 6, but use SELECT instead of INSERT, and change the table name from movie to movie_tb.
+7. In Kafka UI, You should see the movie topic updating every 5 seconds (because of the “bulk” mode).
+8. Upload the sink.json file to the same location as mentioned in Step 5.
+9. Go to the MySQL container of the sink part and run mysql command as:
+```sql
+mysql -uconfluent -pconfluent
+show databases;
+use connect_test;
+show tables;
+SELECT * from movie_tb;
+```
+10. Observe the results in movie_tb.
 
 # Exercise
 1. Use 'incrementing' mode instead of 'bulk' mode. (select one column (as number data type)
 2. Use 'timestamp' mode instead of bulk mode. (select one column (as timestamp type)
 3. Use 'timestamp+incrementing' mode instead of bulk mode. (select two columns (as number and timestamp type)
+
 
 ## Miscellaneous
 - Example of timestamp
