@@ -1,0 +1,60 @@
+Mysql
+
+CREATE TABLE user_metrics (
+    user_id INT PRIMARY KEY,
+    total_orders BIGINT,
+    total_spend DOUBLE
+);
+
+Flink
+
+CREATE TABLE mysql_sink (
+    user_id INT,
+    total_orders BIGINT,
+    total_spend DOUBLE,
+    PRIMARY KEY (user_id) NOT ENFORCED
+) WITH (
+    'connector' = 'jdbc',
+    'url' = 'jdbc:mysql://mysql:3306/connect_test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC',
+    'table-name' = 'user_metrics',
+    'username' = 'c',
+    'password' = 'c',
+    'sink.buffer-flush.max-rows' = '100',
+    'sink.buffer-flush.interval' = '1s',
+    'sink.max-retries' = '3'
+);
+
+
+CREATE TABLE datagen_orders_source (
+    user_id INT,
+    order_id INT,
+    price DOUBLE,
+    order_time AS PROCTIME()
+) WITH (
+    'connector' = 'datagen',
+    'rows-per-second' = '5',
+    
+    -- Restrict user_id range between 1 and 100 (creates reusable groups for aggregation)
+    'fields.user_id.kind' = 'random',
+    'fields.user_id.min' = '1',
+    'fields.user_id.max' = '100',
+    
+    -- Sequential incrementing IDs for orders
+    'fields.order_id.kind' = 'sequence',
+    'fields.order_id.start' = '1',
+    'fields.order_id.end' = '10000',
+    
+    -- Random prices between $10.00 and $500.00
+    'fields.price.kind' = 'random',
+    'fields.price.min' = '10.0',
+    'fields.price.max' = '500.0'
+);
+
+INSERT INTO mysql_sink
+SELECT 
+    user_id,
+    COUNT(order_id) AS total_orders,
+    SUM(price) AS total_spend
+FROM datagen_orders_source
+GROUP BY user_id;
+
