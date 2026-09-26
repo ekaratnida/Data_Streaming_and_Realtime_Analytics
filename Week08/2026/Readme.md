@@ -67,9 +67,7 @@ WHERE email IS NOT NULL
 
 # Kibana and Elasticsearch
 
-This section uses a different compose file. `docker-compose-flinksql-grafana.yml`
-does not include Elasticsearch, Kibana, or the Elasticsearch connector jar, so
-use `elastic.yml` instead.
+use `elastic.yml`.
 
 1. Start docker
 ```bash
@@ -78,32 +76,9 @@ docker compose -f elastic.yml up -d
 
 2. Create the index with an explicit mapping, before starting any job
 
-This step is mandatory. The Elasticsearch connector serialises Flink's
-`TIMESTAMP(3)` as a plain string, so if the index does not already exist,
-Elasticsearch's dynamic mapping infers `text` for `order_time` on the very first
-document. Field types are immutable once written, so it can never be corrected
-with `PUT /faker_orders/_mapping` afterwards, and Kibana will not be able to
-offer it as a time field.
-
 ```bash
 curl -X PUT "http://localhost:9200/faker_orders" -H "Content-Type: application/json" --data-binary @create.json
 ```
-
-`create.json` is in this directory. Note the `date` format must match the
-connector's output exactly, hence the `.SSS`.
-
-Do not declare `order_time` as `TIMESTAMP(3)` in the sink table. The connector
-serialises a timestamp with trailing zeros trimmed from the fractional seconds,
-so it emits `2026-09-26 16:06:30.49` rather than `2026-09-26 16:06:30.490`. That
-does not match the `.SSS` format above, so roughly one document in ten is
-rejected and the job dies with:
-
-```
-failed to parse date field [2026-09-26 16:06:30.49] with format [yyyy-MM-dd HH:mm:ss.SSS]
-```
-
-Declaring the column `STRING` and wrapping it in `DATE_FORMAT` in the `SELECT`
-pins the width to exactly three digits instead.
 
 3. Start flinksql client
 ```bash
@@ -166,9 +141,6 @@ FROM fake_orders;
 
 7. Point the Kibana data view at the timestamp field
 
-Until this is set, Discover shows either "Select a timestamp field for use with
-the global time filter" or "There are no available fields that contain data".
-
 Stack Management -> Data Views -> `faker_orders*` -> edit -> Time field ->
 `order_time`.
 
@@ -177,31 +149,4 @@ Stack Management -> Data Views -> `faker_orders*` -> edit -> Time field ->
 curl "http://localhost:9200/faker_orders/_count"
 ```
 
-The count should climb while the job runs. If it stops at a small fixed number
-and the job shows as failed, check `docker logs flink-jobmanager`.
-
-# Troubleshooting
-
-**The job fails with a `NullPointerException` in `DocWriteResponse`.**
-The `elasticsearch-7` connector embeds a 7.17 client and cannot read bulk
-responses from an 8.x server. `elastic.yml` pins Elasticsearch and Kibana to
-7.17.9 for this reason. There is no `flink-sql-connector-elasticsearch8`; the
-8.x connector is DataStream-only, with no SQL table factory, so it cannot be
-used with `'connector' = ...` in SQL DDL.
-
-**`mapper [order_time] cannot be changed from type [text] to [date]`.**
-The index was created by dynamic mapping before step 2 was done. Elasticsearch
-cannot change the type of an existing field, so the index has to be dropped and
-recreated. Any data in it is lost.
-
-**`failed to parse date field [...] with format [yyyy-MM-dd HH:mm:ss.SSS]`.**
-`order_time` is declared `TIMESTAMP(3)` in the sink table, so the connector
-trims trailing zeros from the fractional seconds and emits a variable-width
-value that the mapping rejects. Declare it `STRING` and use
-`DATE_FORMAT(order_time, 'yyyy-MM-dd HH:mm:ss.SSS')` in the `SELECT`.
-
-**`resource_already_exists_exception` on step 2.**
-The index already exists. Delete it first, which discards its documents:
-```bash
-curl -X DELETE "http://localhost:9200/faker_orders"
-```
+The count should climb while the job runs.
