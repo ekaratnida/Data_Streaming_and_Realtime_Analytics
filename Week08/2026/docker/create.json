@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "properties": {
+      "order_id": {
+        "type": "keyword"
+      },
+      "user_name": {
+        "type": "text"
+      },
+      "category": {
+        "type": "keyword"
+      },
+      "price": {
+        "type": "double"
+      },
+      "quantity": {
+        "type": "integer"
+      },
+      "total_amount": {
+        "type": "double"
+      },
+      "order_time": {
+        "type": "date",
+        "format": "yyyy-MM-dd HH:mm:ss.SSS"
+      }
+    }
+  }
+}
