@@ -141,8 +141,7 @@ FROM fake_orders;
 
 7. Point the Kibana data view at the timestamp field
 
-Stack Management -> Data Views -> `faker_orders*` -> edit -> Time field ->
-`order_time`.
+Stack Management -> Index Patterns (Kibana) -> create index pattern -> `faker_orders*` -> edit -> Time field -> `order_time` -> click 'create_index_pattern'.
 
 8. Verify
 ```bash
