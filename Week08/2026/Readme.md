@@ -70,6 +70,7 @@ WHERE email IS NOT NULL
 use `elastic.yml`.
 
 1. Start docker
+   
 ```bash
 docker compose -f elastic.yml up -d
 ```
@@ -81,11 +82,13 @@ curl -X PUT "http://localhost:9200/faker_orders" -H "Content-Type: application/j
 ```
 
 3. Start flinksql client
+   
 ```bash
 docker exec -it flink-sql-client sql-client.sh
 ```
 
 4. Create a source table
+   
 ```sql
 CREATE TABLE fake_orders (
   order_id STRING,
@@ -106,6 +109,7 @@ CREATE TABLE fake_orders (
   'rows-per-second' = '10'
 );
 ```
+
 5. Create a sink table
 
 ```sql
@@ -125,7 +129,9 @@ CREATE TABLE elastic_orders (
   'format' = 'json'
 );
 ```
+
 6. Insert
+
 ```sql
 INSERT INTO elastic_orders
 SELECT 
@@ -139,15 +145,16 @@ SELECT
 FROM fake_orders;
 ```
 
-7. Point the Kibana data view at the timestamp field
+7. Start kibana (click 5601:5601) at http://localhost:5601/app/home#/
 
-7.1) Stack Management -> Index Patterns (Kibana) -> create index pattern -> `faker_orders*` -> edit -> Time field -> `order_time` -> click 'create_index_pattern'.
+- 7.1) Click Stack Management menu
+  
+- 7.2) Click Index Patterns (Kibana Section) -> create index pattern -> `faker_orders*` -> edit -> Time field -> `order_time` -> click 'create_index_pattern'.
 
-7.2) Analytic -> Discover 
+- 7.3) Analytic -> Discover 
 
 8. Verify
 ```bash
 curl "http://localhost:9200/faker_orders/_count"
 ```
-
 The count should climb while the job runs.
