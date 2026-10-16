@@ -149,7 +149,7 @@ FROM fake_orders;
 
 - 7.1) Click Stack Management menu
   
-- 7.2) Click Index Patterns (Kibana Section) -> create index pattern -> `faker_orders*` -> edit -> Time field -> `order_time` -> click 'create_index_pattern'.
+- 7.2) Click Index Patterns (Kibana Section) -> Create index pattern -> `faker_orders*` -> edit -> Time field -> `order_time` -> click 'create_index_pattern'.
 
 - 7.3) Analytic -> Discover 
 
